@@ -29,10 +29,10 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10 flex flex-col items-center">
-          <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-6">
+          <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-6">
             Large Project Workforce Solutions
           </p>
-          <h1 className="font-display font-extrabold text-4xl sm:text-5xl tracking-wide uppercase text-steel-50 leading-none whitespace-nowrap">
+          <h1 className="font-display font-extrabold text-4xl sm:text-5xl tracking-wide uppercase text-steel-50 leading-none sm:whitespace-nowrap">
             Canyon Markets
           </h1>
           <p className="mt-6 text-steel-300 text-lg sm:text-xl max-w-2xl leading-relaxed">
