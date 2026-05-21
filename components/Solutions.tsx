@@ -26,7 +26,7 @@ const SECTIONS: Section[] = [
     id: 'micro-markets',
     eyebrow: 'On-Site Nutrition',
     heading: 'Premium Micro-Markets & Smart Coolers',
-    body: 'Data center builds run 24/7 across rotating shifts. We equip your site with fully stocked micro-markets and smart coolers engineered around the physical demands of heavy-duty construction work — not vending machine afterthoughts.',
+    body: 'Large-scale construction projects run 24/7 across rotating shifts. We equip your site with fully stocked micro-markets and smart coolers engineered around the physical demands of heavy-duty construction work — not vending machine afterthoughts.',
     features: [
       {
         icon: Beef,
@@ -90,7 +90,7 @@ export default function Solutions() {
             {/* ── Text column ───────────────────────────────────────────── */}
             <div className="flex flex-col gap-8 lg:w-1/2">
               <div>
-                <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-4">
+                <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-4">
                   {eyebrow}
                 </p>
                 <h2 className="font-display font-bold text-3xl sm:text-4xl uppercase tracking-wide text-steel-50 leading-tight">
@@ -101,7 +101,7 @@ export default function Solutions() {
                     {subheading}
                   </p>
                 )}
-                <p className="mt-5 text-steel-300 text-base leading-relaxed max-w-lg">
+                <p className="mt-5 text-steel-100 text-base leading-relaxed max-w-lg">
                   {body}
                 </p>
               </div>
@@ -116,7 +116,7 @@ export default function Solutions() {
                       <p className="font-display font-bold text-lg uppercase tracking-wide text-steel-100">
                         {label}
                       </p>
-                      <p className="mt-1.5 text-sm leading-relaxed text-steel-400">
+                      <p className="mt-1.5 text-sm leading-relaxed text-steel-200">
                         {detail}
                       </p>
                     </div>
