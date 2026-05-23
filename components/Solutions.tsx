@@ -47,7 +47,7 @@ const SECTIONS: Section[] = [
     imageAlt: 'Premium micro-market installation',
     imageBg: 'from-charcoal-700 to-charcoal-800',
     imageLabel: 'Micro-Market / Smart Cooler',
-    photo: '/Snacks Drinks.png',
+    photo: '/2.png',
     flip: false,
   },
   {
@@ -68,10 +68,10 @@ const SECTIONS: Section[] = [
         detail: 'Large-scale job sites demand strict oversight. We protect our inventory and your facility with Panoptyc AI-powered smart cameras — 24/7 autonomous monitoring, intelligent loss-detection analytics, and proactive security alerts. Complete operational integrity with zero burden on site management.',
       },
     ],
-    imageAlt: 'Smart vending kiosk on site',
+    imageAlt: 'Canyon Markets micro-market setup inside a data center construction tent',
     imageBg: 'from-charcoal-600 to-charcoal-700',
     imageLabel: 'Smart Vending / POS Kiosk',
-    photo: '/mashgin.png',
+    photo: '/1.png',
     flip: true,
   },
 ];
