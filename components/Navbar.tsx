@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const NAV_LINKS = [
   { label: 'Home',       href: '#home' },
@@ -49,6 +50,8 @@ export default function Navbar() {
   const [menuOpen,  setMenuOpen]  = useState(false);
   const [scrolled,  setScrolled]  = useState(false);
   const [logoError, setLogoError] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === '/';
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -58,7 +61,11 @@ export default function Navbar() {
 
   const handleLink = (href: string) => {
     setMenuOpen(false);
-    scrollTo(href);
+    if (isHome) {
+      scrollTo(href);
+    } else {
+      window.location.href = `/${href}`;
+    }
   };
 
   return (
@@ -72,7 +79,7 @@ export default function Navbar() {
 
         {/* ── Brand ─────────────────────────────────────────────────────── */}
         <a
-          href="#home"
+          href={isHome ? '#home' : '/'}
           onClick={(e) => { e.preventDefault(); handleLink('#home'); }}
           className="flex items-center gap-3 group select-none"
           aria-label="Canyon Markets — go to top"
