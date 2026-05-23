@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const NAV_LINKS = [
   { label: 'Home',       href: '#home' },
@@ -112,6 +113,15 @@ export default function Navbar() {
               </a>
             </li>
           ))}
+          <li>
+            <Link
+              href="/blog"
+              className="relative text-sm font-medium tracking-wide text-iron-600 hover:text-ember-500 transition-colors duration-200 group py-1"
+            >
+              Field Guides
+              <span aria-hidden="true" className="absolute -bottom-0.5 left-0 h-px w-0 bg-ember-500 group-hover:w-full transition-all duration-300" />
+            </Link>
+          </li>
         </ul>
 
         {/* ── Mobile hamburger ──────────────────────────────────────────── */}
@@ -142,13 +152,23 @@ export default function Navbar() {
               <a
                 href={href}
                 onClick={(e) => { e.preventDefault(); handleLink(href); }}
-                className="flex items-center gap-3 py-3.5 text-sm font-medium text-iron-600 hover:text-ember-500 border-b border-black/6 last:border-0 transition-colors duration-200"
+                className="flex items-center gap-3 py-3.5 text-sm font-medium text-iron-600 hover:text-ember-500 border-b border-black/6 transition-colors duration-200"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-ember-500 shrink-0" aria-hidden="true" />
                 {label}
               </a>
             </li>
           ))}
+          <li>
+            <Link
+              href="/blog"
+              onClick={() => setMenuOpen(false)}
+              className="flex items-center gap-3 py-3.5 text-sm font-medium text-iron-600 hover:text-ember-500 transition-colors duration-200"
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-ember-500 shrink-0" aria-hidden="true" />
+              Field Guides
+            </Link>
+          </li>
         </ul>
       </div>
     </header>

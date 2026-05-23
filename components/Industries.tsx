@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Server, HeartPulse, Plane, Cpu, Sun, Factory, Trophy, Route, Flame, Shield } from 'lucide-react';
 
 const INDUSTRIES = [
@@ -5,51 +6,61 @@ const INDUSTRIES = [
     icon: Server,
     name: 'Data Centers',
     sub: 'Hyperscale and colocation builds. Rotating shifts, massive footprints, zero break room infrastructure.',
+    href: '/data-center-construction-vending',
   },
   {
     icon: HeartPulse,
     name: 'Hospital & Healthcare',
     sub: 'Mission-critical medical construction. Strict badging requirements with crews that need real fuel.',
+    href: '/hospital-construction-vending',
   },
   {
     icon: Plane,
     name: 'Airport & Terminal',
     sub: 'Airside and landside construction programs with security-controlled access and 24/7 shift demands.',
+    href: '/airport-construction-vending',
   },
   {
     icon: Cpu,
     name: 'Semiconductor Fabs',
     sub: 'Cleanroom-adjacent mega-builds running aggressive timelines with large specialized crews.',
+    href: '/semiconductor-fab-construction-vending',
   },
   {
     icon: Sun,
     name: 'Solar & Wind Farms',
     sub: 'Remote renewable energy builds — often miles from the nearest food option in open desert or farmland.',
+    href: '/solar-farm-construction-vending',
   },
   {
     icon: Factory,
     name: 'Industrial & Manufacturing',
     sub: 'Large-scale plant and process facility construction with MEP and structural crews across wide footprints.',
+    href: '/industrial-plant-construction-vending',
   },
   {
     icon: Trophy,
     name: 'Stadium & Arena',
     sub: 'High-visibility venue construction programs with rotating crews and hard completion deadlines.',
+    href: '/stadium-construction-vending',
   },
   {
     icon: Route,
     name: 'Highway & Bridge',
     sub: 'Distributed corridor construction with crews spread across long stretches of active right-of-way.',
+    href: '/highway-construction-vending',
   },
   {
     icon: Flame,
     name: 'Refinery & Petrochemical',
     sub: 'Controlled-access industrial sites with specialized safety protocols and large turnaround crews.',
+    href: '/refinery-construction-vending',
   },
   {
     icon: Shield,
     name: 'Military & Government',
     sub: 'Federally contracted builds requiring background-cleared vendor access and strict compliance standards.',
+    href: '/military-construction-vending',
   },
 ];
 
@@ -74,9 +85,10 @@ export default function Industries() {
 
         {/* ── Industry grid ──────────────────────────────────────────────── */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-          {INDUSTRIES.map(({ icon: Icon, name, sub }) => (
-            <div
+          {INDUSTRIES.map(({ icon: Icon, name, sub, href }) => (
+            <Link
               key={name}
+              href={href}
               className="group flex flex-col gap-3 rounded-xl border border-steel-500/15 bg-charcoal-900 p-4 transition-all duration-300 hover:border-ember-500/40 hover:bg-charcoal-800 hover:-translate-y-0.5"
             >
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-ember-500/10 text-ember-500 transition-colors duration-300 group-hover:bg-ember-500/20">
@@ -90,7 +102,7 @@ export default function Industries() {
                   {sub}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
