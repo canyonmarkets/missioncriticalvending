@@ -33,7 +33,7 @@ export default function EnterpriseBenefits() {
 
         {/* ── Section header ─────────────────────────────────────────────── */}
         <div className="text-center mb-16">
-          <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-4">
+          <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-4">
             Built for Enterprise
           </p>
           <h2 className="font-display font-bold text-3xl sm:text-4xl uppercase tracking-wide text-steel-50">
@@ -58,7 +58,7 @@ export default function EnterpriseBenefits() {
                 <h3 className="font-display font-bold text-lg uppercase tracking-wide text-steel-50">
                   {title}
                 </h3>
-                <p className="text-sm leading-relaxed text-steel-300">
+                <p className="text-sm leading-relaxed text-steel-100">
                   {body}
                 </p>
               </div>

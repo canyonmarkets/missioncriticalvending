@@ -42,14 +42,14 @@ export default function Footer() {
                 Canyon Markets
               </span>
             </div>
-            <p className="text-xs leading-relaxed text-steel-500 max-w-xs">
+            <p className="text-xs leading-relaxed text-steel-300 max-w-xs">
               Premium micro-markets and smart vending solutions deployed nationwide across large-scale construction sites and enterprise workforce environments.
             </p>
           </div>
 
           {/* ── Site links ─────────────────────────────────────────────── */}
           <div>
-            <p className="text-xs font-mono tracking-[0.2em] uppercase text-steel-500 mb-4">
+            <p className="text-xs font-mono tracking-[0.2em] uppercase text-steel-300 mb-4">
               Navigation
             </p>
             <ul className="flex flex-col gap-2.5">
@@ -57,7 +57,7 @@ export default function Footer() {
                 <li key={href}>
                   <a
                     href={href}
-                    className="text-sm text-steel-400 hover:text-ember-500 transition-colors duration-200"
+                    className="text-sm text-steel-200 hover:text-ember-500 transition-colors duration-200"
                   >
                     {label}
                   </a>
@@ -68,12 +68,12 @@ export default function Footer() {
 
           {/* ── Contact ────────────────────────────────────────────────── */}
           <div>
-            <p className="text-xs font-mono tracking-[0.2em] uppercase text-steel-500 mb-4">
+            <p className="text-xs font-mono tracking-[0.2em] uppercase text-steel-300 mb-4">
               Contact
             </p>
             <a
               href="mailto:info@canyon-markets.com"
-              className="inline-flex items-center gap-2 text-sm text-steel-400 hover:text-ember-500 transition-colors duration-200"
+              className="inline-flex items-center gap-2 text-sm text-steel-200 hover:text-ember-500 transition-colors duration-200"
             >
               <Mail size={14} strokeWidth={1.5} />
               info@canyon-markets.com

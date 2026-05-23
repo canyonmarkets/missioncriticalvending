@@ -31,14 +31,14 @@ export default function Operations() {
 
         {/* ── Section header ─────────────────────────────────────────────── */}
         <div className="mb-20">
-          <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-4">
+          <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-4">
             Smart Site Technology
           </p>
           <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
             <h2 className="font-display font-bold text-3xl sm:text-4xl uppercase tracking-wide text-steel-50 max-w-xl leading-tight">
               Operations That Run Themselves
             </h2>
-            <p className="text-steel-400 text-sm leading-relaxed max-w-sm lg:text-right">
+            <p className="text-steel-200 text-sm leading-relaxed max-w-sm lg:text-right">
               Our technology stack handles inventory, support, and logistics automatically — so your team stays focused on the build.
             </p>
           </div>
@@ -73,7 +73,7 @@ export default function Operations() {
                   </h3>
                 </div>
 
-                <p className="text-steel-300 text-sm leading-relaxed max-w-2xl">
+                <p className="text-steel-100 text-sm leading-relaxed max-w-2xl">
                   {body}
                 </p>
 

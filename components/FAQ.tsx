@@ -45,7 +45,7 @@ export default function FAQ() {
 
         {/* ── Section header ─────────────────────────────────────────────── */}
         <div className="text-center mb-16">
-          <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-4">
+          <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-4">
             Common Questions
           </p>
           <h2 className="font-display font-bold text-3xl sm:text-4xl uppercase tracking-wide text-steel-50">
@@ -82,7 +82,7 @@ export default function FAQ() {
                   open === i ? 'max-h-[400px] pb-8' : 'max-h-0',
                 ].join(' ')}
               >
-                <p className="text-steel-300 text-sm leading-relaxed max-w-3xl">
+                <p className="text-steel-100 text-sm leading-relaxed max-w-3xl">
                   {a}
                 </p>
               </div>

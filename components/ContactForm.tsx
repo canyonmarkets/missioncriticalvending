@@ -45,7 +45,7 @@ function Field({
 }) {
   return (
     <div className="flex flex-col gap-1.5">
-      <label htmlFor={id} className="text-xs font-mono tracking-[0.15em] uppercase text-steel-400">
+      <label htmlFor={id} className="text-xs font-mono tracking-[0.15em] uppercase text-steel-200">
         {label}{required && <span className="text-ember-500 ml-0.5">*</span>}
       </label>
       <input
@@ -56,7 +56,7 @@ function Field({
         value={value}
         placeholder={placeholder}
         onChange={(e) => onChange(id, e.target.value)}
-        className="w-full rounded-lg border border-steel-500/20 bg-charcoal-900 px-4 py-3 text-sm text-steel-100 placeholder-steel-500/40 outline-none transition-all duration-200 focus:border-ember-500/60 focus:ring-1 focus:ring-ember-500/30"
+        className="w-full rounded-lg border border-steel-500/20 bg-charcoal-900 px-4 py-3 text-sm text-steel-100 placeholder-steel-300/60 outline-none transition-all duration-200 focus:border-ember-500/60 focus:ring-1 focus:ring-ember-500/30"
       />
     </div>
   );
@@ -99,13 +99,13 @@ export default function ContactForm() {
           {/* ── Left: pitch column ─────────────────────────────────────── */}
           <div className="flex flex-col gap-10">
             <div>
-              <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-4">
+              <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-4">
                 Get Started
               </p>
               <h2 className="font-display font-bold text-3xl sm:text-4xl uppercase tracking-wide text-steel-50 leading-tight">
                 Request a Market Layout
               </h2>
-              <p className="mt-5 text-steel-400 text-sm leading-relaxed">
+              <p className="mt-5 text-steel-200 text-sm leading-relaxed">
                 Tell us about your project and we'll design a zero-cost micro-market and vending solution tailored to your site footprint and crew size.
               </p>
             </div>
@@ -118,18 +118,18 @@ export default function ContactForm() {
                       <path d="M1.5 5L4 7.5L8.5 2.5" stroke="#C94B0C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </span>
-                  <span className="text-steel-300 text-sm leading-relaxed">{point}</span>
+                  <span className="text-steel-100 text-sm leading-relaxed">{point}</span>
                 </li>
               ))}
             </ul>
 
             <div className="border-t border-steel-500/10 pt-8">
-              <p className="text-xs font-mono tracking-[0.2em] uppercase text-steel-500 mb-3">
+              <p className="text-xs font-mono tracking-[0.2em] uppercase text-steel-300 mb-3">
                 Direct Contact
               </p>
               <a
                 href="mailto:info@canyon-markets.com"
-                className="inline-flex items-center gap-2 text-sm text-steel-400 hover:text-ember-500 transition-colors duration-200"
+                className="inline-flex items-center gap-2 text-sm text-steel-200 hover:text-ember-500 transition-colors duration-200"
               >
                 <Mail size={14} strokeWidth={1.5} />
                 info@canyon-markets.com
@@ -144,7 +144,7 @@ export default function ContactForm() {
               <h3 className="font-display font-bold text-2xl uppercase tracking-wide text-steel-50">
                 Request Received
               </h3>
-              <p className="text-steel-300 text-sm leading-relaxed max-w-sm">
+              <p className="text-steel-100 text-sm leading-relaxed max-w-sm">
                 Thank you, {form.firstName}. Our team will review your project details and reach out within one business day with a custom layout proposal.
               </p>
               <button
@@ -169,7 +169,7 @@ export default function ContactForm() {
               <Field label="Project Location / City" id="location" value={form.location} onChange={handleChange} required placeholder="Austin, TX" />
 
               <div className="flex flex-col gap-1.5">
-                <label htmlFor="details" className="text-xs font-mono tracking-[0.15em] uppercase text-steel-400">
+                <label htmlFor="details" className="text-xs font-mono tracking-[0.15em] uppercase text-steel-200">
                   Project Details / Estimated Crew Size<span className="text-ember-500 ml-0.5">*</span>
                 </label>
                 <textarea
@@ -180,7 +180,7 @@ export default function ContactForm() {
                   value={form.details}
                   placeholder="e.g. Data center hyperscale build, approx. 400 workers across two shifts. Looking for micro-market near the staging area and vending near the MEP corridor."
                   onChange={(e) => handleChange('details', e.target.value)}
-                  className="w-full rounded-lg border border-steel-500/20 bg-charcoal-900 px-4 py-3 text-sm text-steel-100 placeholder-steel-500/40 outline-none transition-all duration-200 focus:border-ember-500/60 focus:ring-1 focus:ring-ember-500/30 resize-none"
+                  className="w-full rounded-lg border border-steel-500/20 bg-charcoal-900 px-4 py-3 text-sm text-steel-100 placeholder-steel-300/60 outline-none transition-all duration-200 focus:border-ember-500/60 focus:ring-1 focus:ring-ember-500/30 resize-none"
                 />
               </div>
 
@@ -197,7 +197,7 @@ export default function ContactForm() {
               )}
 
               <div className="flex items-center justify-between gap-4">
-                <p className="text-xs text-steel-500 leading-relaxed max-w-xs">
+                <p className="text-xs text-steel-300 leading-relaxed max-w-xs">
                   No commitment required. We'll respond within one business day.
                 </p>
                 <button
