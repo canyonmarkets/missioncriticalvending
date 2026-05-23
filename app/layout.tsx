@@ -34,20 +34,26 @@ export const metadata: Metadata = {
 
   // ── Core description ─────────────────────────────────────────────────
   description:
-    'Canyon Markets deploys premium micro-markets and smart vending engineered for data centers, industrial complexes, and large infrastructure projects nationwide. Zero operational burden — fully stocked, fully managed, 24/7.',
+    'Canyon Markets deploys premium micro-markets and smart vending for large-scale construction sites nationwide — data centers, hospitals, airports, semiconductor fabs, solar farms, stadiums, and industrial plants. Zero cost to the GC. Fully stocked, fully managed, 24/7.',
 
   // ── Keywords ────────────────────────────────────────────────────────
   keywords: [
     'construction site vending',
     'micro-market construction site',
+    'large construction site food service',
     'data center construction food service',
+    'hospital construction vending',
+    'airport construction food service',
+    'semiconductor fab construction vending',
+    'solar farm construction food service',
+    'industrial plant construction vending',
+    'stadium construction food service',
     'large project workforce vending',
     'mission critical vending',
     'industrial site micro-market',
     'job site vending machines',
     'large scale construction workforce amenities',
     'smart vending construction',
-    'PPE vending construction site',
     'workforce nutrition construction',
     'Canyon Markets vending',
   ],
@@ -72,7 +78,7 @@ export const metadata: Metadata = {
       'Premium micro-markets and smart vending engineered for data centers, industrial complexes, and major construction projects. Fully stocked, fully managed, zero burden.',
     images: [
       {
-        url: '/Snacks Drinks.png',
+        url: '/2.png',
         width: 1200,
         height: 630,
         alt: 'Canyon Markets — Mission Critical Vending micro-market installation',
@@ -86,7 +92,7 @@ export const metadata: Metadata = {
     title: 'Mission Critical Vending | Micro-Markets for Large-Scale Construction Sites',
     description:
       'Premium micro-markets and smart vending for data centers, industrial sites, and large construction projects. Zero operational burden.',
-    images: ['/Snacks Drinks.png'],
+    images: ['/2.png'],
   },
 
   // ── Crawling & indexing ──────────────────────────────────────────────

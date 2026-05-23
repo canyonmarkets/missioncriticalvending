@@ -289,11 +289,11 @@ export default function BlogPostPage() {
             <Link href="/" className="px-4 py-2 rounded-lg border border-steel-500/20 text-sm text-steel-400 hover:border-ember-500/50 hover:text-ember-400 transition-colors duration-200">
               ← Home
             </Link>
-            <Link href="/#solutions" className="px-4 py-2 rounded-lg border border-steel-500/20 text-sm text-steel-400 hover:border-ember-500/50 hover:text-ember-400 transition-colors duration-200">
-              Our Solutions
+            <Link href="/blog/vending-for-hospital-construction" className="px-4 py-2 rounded-lg border border-steel-500/20 text-sm text-steel-400 hover:border-ember-500/50 hover:text-ember-400 transition-colors duration-200">
+              Hospital Construction
             </Link>
-            <Link href="/#operations" className="px-4 py-2 rounded-lg border border-steel-500/20 text-sm text-steel-400 hover:border-ember-500/50 hover:text-ember-400 transition-colors duration-200">
-              How It Works
+            <Link href="/blog/vending-for-solar-farm-construction" className="px-4 py-2 rounded-lg border border-steel-500/20 text-sm text-steel-400 hover:border-ember-500/50 hover:text-ember-400 transition-colors duration-200">
+              Solar Farm Construction
             </Link>
             <Link href="/#contact" className="px-4 py-2 rounded-lg border border-steel-500/20 text-sm text-steel-400 hover:border-ember-500/50 hover:text-ember-400 transition-colors duration-200">
               Request a Layout

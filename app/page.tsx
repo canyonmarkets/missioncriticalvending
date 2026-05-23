@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import EnterpriseBenefits from '@/components/EnterpriseBenefits';
+import Industries from '@/components/Industries';
 import Solutions from '@/components/Solutions';
 import Operations from '@/components/Operations';
 import FAQ from '@/components/FAQ';
@@ -37,11 +38,14 @@ export default function Home() {
             Canyon Markets
           </h1>
           <p className="mt-6 text-steel-300 text-lg sm:text-xl max-w-2xl leading-relaxed">
-            Premium micro-markets vending engineered for large-scale construction:
-            data centers, industrial complexes, and major infrastructure.
+            Premium micro-markets and smart vending for the nation&apos;s largest construction projects —
+            data centers, hospitals, airports, semiconductor fabs, solar farms, and beyond.
           </p>
         </div>
       </section>
+
+      {/* ── Industries We Serve ─────────────────────────────────────── */}
+      <Industries />
 
       {/* ── Enterprise Benefits ──────────────────────────────────────── */}
       <EnterpriseBenefits />
