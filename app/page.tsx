@@ -53,14 +53,18 @@ export default function Home() {
       <Operations />
 
       {/* ── From The Field ───────────────────────────────────────────── */}
-      <div className="relative w-full h-[480px] sm:h-[560px] overflow-hidden">
-        <Image
-          src="/3.png"
-          alt="Construction crew member grabbing food at a Canyon Markets micro-market kiosk on an active data center build site"
-          fill
-          className="object-cover object-center"
-          sizes="100vw"
-        />
+      <div className="bg-zinc-800 px-6 lg:px-10 py-24">
+        <div className="max-w-7xl mx-auto">
+          <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden border border-steel-500/10">
+            <Image
+              src="/3.png"
+              alt="Construction crew member grabbing food at a Canyon Markets micro-market kiosk on an active data center build site"
+              fill
+              className="object-cover object-center"
+              sizes="(max-width: 1024px) 100vw, 80vw"
+            />
+          </div>
+        </div>
       </div>
 
       {/* ── FAQ ──────────────────────────────────────────────────────── */}
