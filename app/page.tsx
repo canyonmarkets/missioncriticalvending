@@ -44,9 +44,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Industries We Serve ─────────────────────────────────────── */}
-      <Industries />
-
       {/* ── Enterprise Benefits ──────────────────────────────────────── */}
       <EnterpriseBenefits />
 
@@ -73,6 +70,9 @@ export default function Home() {
 
       {/* ── FAQ ──────────────────────────────────────────────────────── */}
       <FAQ />
+
+      {/* ── Industries We Serve ─────────────────────────────────────── */}
+      <Industries />
 
       {/* ── Contact ──────────────────────────────────────────────────── */}
       <ContactForm />

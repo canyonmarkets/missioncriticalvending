@@ -73,20 +73,20 @@ export default function Industries() {
         </div>
 
         {/* ── Industry grid ──────────────────────────────────────────────── */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
           {INDUSTRIES.map(({ icon: Icon, name, sub }) => (
             <div
               key={name}
-              className="group flex flex-col gap-4 rounded-xl border border-steel-500/15 bg-charcoal-900 p-6 transition-all duration-300 hover:border-ember-500/40 hover:bg-charcoal-800 hover:-translate-y-0.5"
+              className="group flex flex-col gap-3 rounded-xl border border-steel-500/15 bg-charcoal-900 p-4 transition-all duration-300 hover:border-ember-500/40 hover:bg-charcoal-800 hover:-translate-y-0.5"
             >
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-ember-500/10 text-ember-500 transition-colors duration-300 group-hover:bg-ember-500/20">
-                <Icon size={20} strokeWidth={1.5} />
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-ember-500/10 text-ember-500 transition-colors duration-300 group-hover:bg-ember-500/20">
+                <Icon size={16} strokeWidth={1.5} />
               </div>
               <div>
-                <p className="font-display font-bold text-sm uppercase tracking-wide text-steel-50 mb-1.5">
+                <p className="font-display font-bold text-xs uppercase tracking-wide text-steel-50 mb-1">
                   {name}
                 </p>
-                <p className="text-steel-300 text-xs leading-relaxed">
+                <p className="text-steel-400 text-xs leading-relaxed hidden sm:block">
                   {sub}
                 </p>
               </div>
