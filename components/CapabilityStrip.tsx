@@ -7,7 +7,7 @@ import Reveal from '@/components/Reveal';
 const STATS = [
   { value: '$0', label: 'Cost to the GC' },
   { value: '24/7', label: 'Every shift covered' },
-  { value: '<2s', label: 'Mashgin checkout' },
+  { value: '250+', label: 'Products stocked' },
   { value: 'Nationwide', label: 'Deployment reach' },
 ] as const;
 
