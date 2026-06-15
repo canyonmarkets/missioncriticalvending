@@ -70,3 +70,51 @@ body {
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-ember-600); }
+
+/* ─── Motion ─────────────────────────────────────────────────────────────── */
+
+/* Staggered entrance: fade + rise. Apply with an inline animation-delay. */
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(1.5rem); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.hero-rise {
+  opacity: 0;
+  animation: hero-rise 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Accent rule that draws itself in from the center. */
+@keyframes line-grow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+.hero-line {
+  transform: scaleX(0);
+  transform-origin: center;
+  animation: line-grow 1.1s 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Slow ember sheen sweeping across clipped text — subtle, continuous. */
+@keyframes ember-sheen {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+.text-ember-sheen {
+  background-image: linear-gradient(
+    100deg,
+    var(--color-ember-500),
+    var(--color-ember-200),
+    var(--color-ember-400)
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: ember-sheen 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-rise { opacity: 1; transform: none; animation: none; }
+  .hero-line { transform: scaleX(1); animation: none; }
+  .text-ember-sheen { animation: none; }
+}

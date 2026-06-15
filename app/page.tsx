@@ -31,13 +31,26 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10 flex flex-col items-center">
-          <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-6">
-            Large Project Workforce Solutions
-          </p>
-          <h1 className="font-display font-extrabold text-4xl sm:text-5xl tracking-wide uppercase text-steel-50 leading-none sm:whitespace-nowrap">
+          {/* eyebrow rises in, then carries a slow continuous ember sheen */}
+          <div className="hero-rise" style={{ animationDelay: '0.1s' }}>
+            <p className="text-ember-sheen font-mono text-base tracking-[0.3em] uppercase mb-6">
+              Large Project Workforce Solutions
+            </p>
+          </div>
+          <h1
+            className="hero-rise font-display font-extrabold text-4xl sm:text-5xl tracking-wide uppercase text-steel-50 leading-none sm:whitespace-nowrap"
+            style={{ animationDelay: '0.25s' }}
+          >
             Canyon Markets
           </h1>
-          <p className="mt-6 text-steel-300 text-lg sm:text-xl max-w-2xl leading-relaxed">
+          <span
+            aria-hidden="true"
+            className="hero-line mt-6 block h-px w-40 bg-gradient-to-r from-transparent via-ember-500 to-transparent"
+          />
+          <p
+            className="hero-rise mt-6 text-steel-300 text-lg sm:text-xl max-w-2xl leading-relaxed"
+            style={{ animationDelay: '0.5s' }}
+          >
             Premium micro-markets and smart vending for the nation&apos;s largest construction projects —
             data centers, hospitals, airports, semiconductor fabs, solar farms, and beyond.
           </p>
@@ -55,14 +68,17 @@ export default function Home() {
 
       {/* ── From The Field ───────────────────────────────────────────── */}
       <div className="bg-zinc-800 px-6 lg:px-10 py-24">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-6 text-center">
+            On the Job Site
+          </p>
           <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden border border-steel-500/10">
             <Image
               src="/3.png"
               alt="Construction crew member grabbing food at a Canyon Markets micro-market kiosk on an active data center build site"
               fill
               className="object-cover object-center"
-              sizes="(max-width: 1024px) 100vw, 80vw"
+              sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
         </div>

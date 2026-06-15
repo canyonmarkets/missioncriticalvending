@@ -1,20 +1,5 @@
+import Image from 'next/image';
 import { Mail } from 'lucide-react';
-
-
-function PeaksLogoMark() {
-  return (
-    <svg viewBox="0 0 48 34" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-8 h-auto" aria-hidden="true">
-      <path d="M0 29 L11 3 L22 29 Z"  fill="#525252" />
-      <path d="M9 29 L11 18 L13 29 Z" fill="#0D1017" />
-      <path d="M10 29 L24 0 L38 29 Z" fill="#C94B0C" />
-      <path d="M21 29 L24 15 L27 29 Z" fill="#0D1017" />
-      <path d="M26 29 L37 7 L48 29 Z" fill="#525252" />
-      <path d="M35 29 L37 20 L39 29 Z" fill="#0D1017" />
-      <path d="M0 31.5 C14 28.5 34 28 48 31.5" stroke="#3A3A3A" strokeWidth="1" fill="none" strokeLinecap="round" />
-      <path d="M0 32   C14 29.5 34 29 48 32"   stroke="#C94B0C" strokeWidth="2" fill="none" strokeLinecap="round" />
-    </svg>
-  );
-}
 
 const NAV_LINKS = [
   { label: 'Home',       href: '#home' },
@@ -37,7 +22,13 @@ export default function Footer() {
           {/* ── Brand ──────────────────────────────────────────────────── */}
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
-              <PeaksLogoMark />
+              <Image
+                src="/logo.png"
+                alt="Canyon Markets"
+                width={56}
+                height={48}
+                className="h-10 w-auto object-contain"
+              />
               <span className="font-display font-bold text-base tracking-widest uppercase text-steel-200">
                 Canyon Markets
               </span>
