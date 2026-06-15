@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Reveal from '@/components/Reveal';
 
 export const metadata: Metadata = {
   title: 'Field Guides | Mission Critical Vending',
@@ -86,13 +87,13 @@ export default function BlogIndexPage() {
 
       {/* ── Header ── */}
       <div className="max-w-5xl mx-auto px-6 pt-24 pb-12">
-        <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-4 text-center">
+        <p className="hero-rise text-ember-sheen font-mono text-sm tracking-[0.3em] uppercase mb-4 text-center" style={{ animationDelay: '0.1s' }}>
           Mission Critical Vending
         </p>
-        <h1 className="font-display font-bold text-3xl sm:text-5xl uppercase tracking-wide text-steel-50 text-center leading-tight mb-6">
+        <h1 className="hero-rise font-display font-bold text-3xl sm:text-5xl uppercase tracking-wide text-steel-50 text-center leading-tight mb-6" style={{ animationDelay: '0.2s' }}>
           Field Guides
         </h1>
-        <p className="text-steel-300 text-base leading-relaxed max-w-2xl mx-auto text-center">
+        <p className="hero-rise text-steel-300 text-base leading-relaxed max-w-2xl mx-auto text-center" style={{ animationDelay: '0.35s' }}>
           In-depth operational guides on construction site vending across every major large-scale
           construction vertical. Written by the Canyon Markets field team.
         </p>
@@ -101,11 +102,11 @@ export default function BlogIndexPage() {
       {/* ── Post grid ── */}
       <div className="max-w-5xl mx-auto px-6 pb-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {POSTS.map(({ slug, title, category, excerpt, read }) => (
+          {POSTS.map(({ slug, title, category, excerpt, read }, i) => (
+            <Reveal key={slug} delay={i * 60} className="h-full">
             <Link
-              key={slug}
               href={`/blog/${slug}`}
-              className="group flex flex-col gap-4 rounded-xl border border-steel-500/15 bg-charcoal-800 p-7 transition-all duration-300 hover:border-ember-500/40 hover:bg-charcoal-700 hover:-translate-y-0.5"
+              className="group flex h-full flex-col gap-4 rounded-xl border border-steel-500/15 bg-charcoal-800 p-7 transition-all duration-300 hover:border-ember-500/40 hover:bg-charcoal-700 hover:-translate-y-0.5"
             >
               <div className="flex items-center justify-between">
                 <span className="text-ember-500 font-mono text-xs tracking-[0.2em] uppercase">{category}</span>
@@ -121,6 +122,7 @@ export default function BlogIndexPage() {
                 Read the guide →
               </span>
             </Link>
+            </Reveal>
           ))}
         </div>
 

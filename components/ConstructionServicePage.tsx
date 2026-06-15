@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Phone, PackageCheck, ShieldCheck, BarChart3, MoveRight, Clock, QrCode } from 'lucide-react';
+import Reveal from '@/components/Reveal';
 
 const BENEFITS = [
   { icon: PackageCheck, title: '100% Free',          body: 'Equipment, installation, restocking, and maintenance — all at zero cost to the GC or project owner.' },
@@ -35,14 +36,14 @@ export default function ConstructionServicePage({
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <section className="bg-charcoal-900 px-6 py-24">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-4">{eyebrow}</p>
-          <h1 className="font-display font-bold text-3xl sm:text-5xl uppercase tracking-wide text-steel-50 leading-tight mb-6">
+          <p className="hero-rise text-ember-sheen font-mono text-sm tracking-[0.3em] uppercase mb-4" style={{ animationDelay: '0.1s' }}>{eyebrow}</p>
+          <h1 className="hero-rise font-display font-bold text-3xl sm:text-5xl uppercase tracking-wide text-steel-50 leading-tight mb-6" style={{ animationDelay: '0.2s' }}>
             {heading}
           </h1>
-          <p className="text-steel-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto mb-10">
+          <p className="hero-rise text-steel-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto mb-10" style={{ animationDelay: '0.35s' }}>
             {intro}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="hero-rise flex flex-col sm:flex-row gap-4 justify-center" style={{ animationDelay: '0.5s' }}>
             <a
               href="/#contact"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-ember-500 px-8 py-4 text-sm font-semibold text-white uppercase tracking-wide hover:bg-ember-400 transition-colors duration-200"
@@ -62,16 +63,20 @@ export default function ConstructionServicePage({
       {/* ── The Challenge ─────────────────────────────────────────────────── */}
       <section className="bg-zinc-800 px-6 py-20">
         <div className="max-w-4xl mx-auto">
-          <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-3 text-center">Why Standard Vending Fails</p>
-          <h2 className="font-display font-bold text-2xl sm:text-4xl uppercase tracking-wide text-steel-50 text-center mb-12">
-            The Challenge on Your Site
-          </h2>
+          <Reveal>
+            <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-3 text-center">Why Standard Vending Fails</p>
+            <h2 className="font-display font-bold text-2xl sm:text-4xl uppercase tracking-wide text-steel-50 text-center mb-12">
+              The Challenge on Your Site
+            </h2>
+          </Reveal>
           <ul className="flex flex-col gap-4 max-w-2xl mx-auto">
-            {challenges.map((item) => (
-              <li key={item} className="flex items-start gap-4 bg-charcoal-900/50 rounded-xl border border-steel-500/10 px-6 py-4">
-                <span className="flex-shrink-0 mt-1.5 h-2 w-2 rounded-full bg-ember-500" />
-                <span className="text-steel-200 text-sm leading-relaxed">{item}</span>
-              </li>
+            {challenges.map((item, i) => (
+              <Reveal key={item} delay={i * 60}>
+                <li className="flex items-start gap-4 bg-charcoal-900/50 rounded-xl border border-steel-500/10 px-6 py-4">
+                  <span className="flex-shrink-0 mt-1.5 h-2 w-2 rounded-full bg-ember-500" />
+                  <span className="text-steel-200 text-sm leading-relaxed">{item}</span>
+                </li>
+              </Reveal>
             ))}
           </ul>
         </div>
@@ -80,25 +85,29 @@ export default function ConstructionServicePage({
       {/* ── What You Get ─────────────────────────────────────────────────── */}
       <section className="bg-charcoal-900 px-6 py-20">
         <div className="max-w-5xl mx-auto">
-          <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-3 text-center">Our Solution</p>
-          <h2 className="font-display font-bold text-2xl sm:text-4xl uppercase tracking-wide text-steel-50 text-center mb-4">
-            Zero Cost. Full Service. Zero Burden.
-          </h2>
-          <p className="text-steel-300 text-sm text-center max-w-xl mx-auto mb-12 leading-relaxed">
-            We provide, install, stock, and manage the entire micro-market setup at no charge to your project.
-            Your only requirement: a dedicated space and a standard power connection.
-          </p>
+          <Reveal>
+            <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-3 text-center">Our Solution</p>
+            <h2 className="font-display font-bold text-2xl sm:text-4xl uppercase tracking-wide text-steel-50 text-center mb-4">
+              Zero Cost. Full Service. Zero Burden.
+            </h2>
+            <p className="text-steel-300 text-sm text-center max-w-xl mx-auto mb-12 leading-relaxed">
+              We provide, install, stock, and manage the entire micro-market setup at no charge to your project.
+              Your only requirement: a dedicated space and a standard power connection.
+            </p>
+          </Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {BENEFITS.map(({ icon: Icon, title, body }) => (
-              <div key={title} className="flex flex-col gap-4 rounded-xl border border-steel-500/15 bg-charcoal-800 p-6">
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-ember-500/10 text-ember-500">
-                  <Icon size={20} strokeWidth={1.5} />
+            {BENEFITS.map(({ icon: Icon, title, body }, i) => (
+              <Reveal key={title} delay={i * 70} className="h-full">
+                <div className="group flex h-full flex-col gap-4 rounded-xl border border-steel-500/15 bg-charcoal-800 p-6 transition-all duration-300 hover:border-ember-500/40 hover:bg-charcoal-700 hover:-translate-y-1 hover:shadow-lg hover:shadow-ember-500/5">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-ember-500/10 text-ember-500 transition-colors duration-300 group-hover:bg-ember-500/20">
+                    <Icon size={20} strokeWidth={1.5} />
+                  </div>
+                  <div>
+                    <p className="font-display font-bold text-sm uppercase tracking-wide text-steel-50 mb-1">{title}</p>
+                    <p className="text-steel-300 text-xs leading-relaxed">{body}</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="font-display font-bold text-sm uppercase tracking-wide text-steel-50 mb-1">{title}</p>
-                  <p className="text-steel-300 text-xs leading-relaxed">{body}</p>
-                </div>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -106,7 +115,7 @@ export default function ConstructionServicePage({
 
       {/* ── Blog teaser ──────────────────────────────────────────────────── */}
       <section className="bg-zinc-800 px-6 py-12">
-        <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 rounded-xl border border-steel-500/15 bg-charcoal-900/60 px-8 py-6">
+        <Reveal className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 rounded-xl border border-steel-500/15 bg-charcoal-900/60 px-8 py-6">
           <div>
             <p className="text-ember-500 font-mono text-xs tracking-[0.2em] uppercase mb-1">Field Guide</p>
             <p className="text-steel-200 text-sm font-semibold leading-snug">{blogTitle}</p>
@@ -117,12 +126,12 @@ export default function ConstructionServicePage({
           >
             Read the Full Guide →
           </Link>
-        </div>
+        </Reveal>
       </section>
 
       {/* ── CTA ──────────────────────────────────────────────────────────── */}
       <section className="bg-charcoal-900 px-6 py-20">
-        <div className="max-w-2xl mx-auto text-center flex flex-col gap-6">
+        <Reveal className="max-w-2xl mx-auto text-center flex flex-col gap-6">
           <h2 className="font-display font-bold text-2xl sm:text-3xl uppercase tracking-wide text-steel-50">
             Ready to Talk?
           </h2>
@@ -143,7 +152,7 @@ export default function ConstructionServicePage({
               <Phone size={16} strokeWidth={1.5} />(602) 935-6830
             </a>
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* ── Internal links ───────────────────────────────────────────────── */}
