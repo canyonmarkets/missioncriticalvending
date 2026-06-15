@@ -1,4 +1,5 @@
 import { BarChart2, QrCode, MoveRight } from 'lucide-react';
+import Reveal from '@/components/Reveal';
 
 const FEATURES = [
   {
@@ -30,7 +31,7 @@ export default function Operations() {
       <div className="max-w-6xl mx-auto">
 
         {/* ── Section header ─────────────────────────────────────────────── */}
-        <div className="mb-20">
+        <Reveal className="mb-20">
           <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-4">
             Smart Site Technology
           </p>
@@ -43,13 +44,13 @@ export default function Operations() {
             </p>
           </div>
           <div className="mt-8 h-px bg-gradient-to-r from-ember-500/60 via-ember-500/20 to-transparent" />
-        </div>
+        </Reveal>
 
         {/* ── Numbered features ──────────────────────────────────────────── */}
         <div className="flex flex-col gap-0">
           {FEATURES.map(({ step, icon: Icon, heading, body, tags }, i) => (
+            <Reveal key={step} delay={i * 80}>
             <div
-              key={step}
               className={[
                 'group relative grid grid-cols-1 lg:grid-cols-[120px_1fr_auto] gap-6 lg:gap-10 py-12',
                 i < FEATURES.length - 1 ? 'border-b border-steel-500/10' : '',
@@ -95,6 +96,7 @@ export default function Operations() {
                 className="absolute left-0 top-0 bottom-0 w-px bg-ember-500/0 group-hover:bg-ember-500/50 transition-all duration-300"
               />
             </div>
+            </Reveal>
           ))}
         </div>
       </div>

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Server, HeartPulse, Plane, Cpu, Sun, Factory, Trophy, Route, Flame, Shield } from 'lucide-react';
+import Reveal from '@/components/Reveal';
 
 const INDUSTRIES = [
   {
@@ -70,7 +71,7 @@ export default function Industries() {
       <div className="max-w-7xl mx-auto">
 
         {/* ── Section header ─────────────────────────────────────────────── */}
-        <div className="text-center mb-16">
+        <Reveal className="text-center mb-16">
           <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-4">
             Nationwide Coverage
           </p>
@@ -81,15 +82,15 @@ export default function Industries() {
             If your project has 200+ workers on-site and no convenient food option nearby, we can solve it.
             We operate across every major large-scale construction vertical — nationwide.
           </p>
-        </div>
+        </Reveal>
 
         {/* ── Industry grid ──────────────────────────────────────────────── */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-          {INDUSTRIES.map(({ icon: Icon, name, sub, href }) => (
+          {INDUSTRIES.map(({ icon: Icon, name, sub, href }, i) => (
+            <Reveal key={name} delay={i * 50} className="h-full">
             <Link
-              key={name}
               href={href}
-              className="group flex flex-col gap-3 rounded-xl border border-steel-500/15 bg-charcoal-900 p-4 transition-all duration-300 hover:border-ember-500/40 hover:bg-charcoal-800 hover:-translate-y-0.5"
+              className="group flex h-full flex-col gap-3 rounded-xl border border-steel-500/15 bg-charcoal-900 p-4 transition-all duration-300 hover:border-ember-500/40 hover:bg-charcoal-800 hover:-translate-y-0.5"
             >
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-ember-500/10 text-ember-500 transition-colors duration-300 group-hover:bg-ember-500/20">
                 <Icon size={16} strokeWidth={1.5} />
@@ -103,6 +104,7 @@ export default function Industries() {
                 </p>
               </div>
             </Link>
+            </Reveal>
           ))}
         </div>
 

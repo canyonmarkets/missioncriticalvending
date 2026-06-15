@@ -113,8 +113,16 @@ body {
   animation: ember-sheen 7s ease-in-out infinite;
 }
 
+/* Gentle bob for the scroll-down cue. */
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(6px); }
+}
+.float-bob { animation: bob 2.2s ease-in-out infinite; }
+
 @media (prefers-reduced-motion: reduce) {
   .hero-rise { opacity: 1; transform: none; animation: none; }
   .hero-line { transform: scaleX(1); animation: none; }
   .text-ember-sheen { animation: none; }
+  .float-bob { animation: none; }
 }

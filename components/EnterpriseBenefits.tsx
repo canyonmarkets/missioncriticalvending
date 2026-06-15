@@ -1,4 +1,5 @@
 import { PackageCheck, ShieldCheck, Handshake, BarChart3 } from 'lucide-react';
+import Reveal from '@/components/Reveal';
 
 const CARDS = [
   {
@@ -32,21 +33,21 @@ export default function EnterpriseBenefits() {
       <div className="max-w-6xl mx-auto">
 
         {/* ── Section header ─────────────────────────────────────────────── */}
-        <div className="text-center mb-16">
+        <Reveal className="text-center mb-16">
           <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-4">
             Built for Enterprise
           </p>
           <h2 className="font-display font-bold text-3xl sm:text-4xl uppercase tracking-wide text-steel-50">
             Why Project Managers Choose Us
           </h2>
-        </div>
+        </Reveal>
 
         {/* ── 4-card grid ────────────────────────────────────────────────── */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {CARDS.map(({ icon: Icon, title, body }) => (
+          {CARDS.map(({ icon: Icon, title, body }, i) => (
+            <Reveal key={title} delay={i * 80} className="h-full">
             <div
-              key={title}
-              className="group relative flex flex-col gap-5 rounded-xl border border-steel-500/20 bg-charcoal-800 p-7 transition-all duration-300 hover:border-ember-500/50 hover:bg-charcoal-700 hover:shadow-lg hover:shadow-ember-500/5 hover:-translate-y-1"
+              className="group relative flex h-full flex-col gap-5 rounded-xl border border-steel-500/20 bg-charcoal-800 p-7 transition-all duration-300 hover:border-ember-500/50 hover:bg-charcoal-700 hover:shadow-lg hover:shadow-ember-500/5 hover:-translate-y-1"
             >
               {/* Icon container */}
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-ember-500/10 text-ember-500 transition-colors duration-300 group-hover:bg-ember-500/20">
@@ -69,6 +70,7 @@ export default function EnterpriseBenefits() {
                 className="absolute bottom-0 left-7 right-7 h-px bg-ember-500/0 transition-all duration-300 group-hover:bg-ember-500/40"
               />
             </div>
+            </Reveal>
           ))}
         </div>
       </div>

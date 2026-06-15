@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Beef, Zap, Droplets, Scan, Camera } from 'lucide-react';
+import Reveal from '@/components/Reveal';
 
 type Feature = {
   icon: React.ComponentType<{ size?: number; strokeWidth?: number }>;
@@ -80,7 +81,7 @@ export default function Solutions() {
   return (
     <section id="solutions" className="bg-zinc-800">
       {SECTIONS.map(({ id, eyebrow, heading, subheading, body, features, imageAlt, imageBg, imageLabel, photo, flip }) => (
-        <div key={id} className="max-w-7xl mx-auto px-6 lg:px-10 py-24">
+        <Reveal key={id} className="max-w-7xl mx-auto px-6 lg:px-10 py-24">
           <div
             className={[
               'flex flex-col gap-12 lg:gap-20 lg:items-center',
@@ -128,14 +129,17 @@ export default function Solutions() {
             {/* ── Image / placeholder column ─────────────────────────────── */}
             <div className="lg:w-1/2">
               {photo ? (
-                <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden border border-steel-500/10">
+                <div className="group relative w-full aspect-[4/3] rounded-2xl overflow-hidden border border-steel-500/10">
                   <Image
                     src={photo}
                     alt={imageAlt}
                     fill
-                    className="object-cover"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
+                  <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-charcoal-950/40 via-transparent to-transparent" />
+                  <span aria-hidden="true" className="absolute top-0 left-0 h-12 w-12 border-t-2 border-l-2 border-ember-500/60 rounded-tl-2xl" />
+                  <span aria-hidden="true" className="absolute bottom-0 right-0 h-12 w-12 border-b-2 border-r-2 border-ember-500/60 rounded-br-2xl" />
                 </div>
               ) : (
                 <div
@@ -168,7 +172,7 @@ export default function Solutions() {
               )}
             </div>
           </div>
-        </div>
+        </Reveal>
       ))}
     </section>
   );
