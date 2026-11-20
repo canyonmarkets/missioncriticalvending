@@ -12,12 +12,12 @@ export default function Page() {
     <ConstructionServicePage
       eyebrow="Industrial & Manufacturing"
       heading="Industrial Plant Construction Vending"
-      intro="Large MEP crews across a campus the size of several city blocks, often in a location with nothing nearby. We deploy market locations matched to your workforce concentration — and scale them as headcount changes across each phase."
+      intro="Large MEP crews across a campus the size of several city blocks, often in a location with nothing nearby. We deploy market locations matched to your workforce concentration, and scale them as headcount changes across each phase."
       challenges={[
         '500 to 1,500 workers spread across a large campus need multiple market locations, not a single machine near the trailer',
-        'Industrial sites are frequently remote or suburban — the nearest restaurant is a 15-minute drive workers can\'t take during a 30-minute break',
-        'MEP rough-in is the most complex phase — dozens of specialty subcontractors running simultaneously, all needing food access',
-        'A 3-year build goes from civil crews to MEP peak to commissioning — headcount swings dramatically and the vendor needs to match it',
+        'Industrial sites are frequently remote or suburban: the nearest restaurant is a 15-minute drive workers can\'t take during a 30-minute break',
+        'MEP rough-in is the most complex phase: dozens of specialty subcontractors running simultaneously, all needing food access',
+        'A 3-year build goes from civil crews to MEP peak to commissioning. Headcount swings dramatically and the vendor needs to match it',
       ]}
       blogSlug="vending-for-industrial-plant-construction"
       blogTitle="Vending for Industrial Plant Construction: Feeding Large MEP Crews Across Massive Footprints"

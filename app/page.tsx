@@ -54,7 +54,7 @@ export default function Home() {
             className="hero-rise mt-6 text-steel-300 text-lg sm:text-xl max-w-2xl leading-relaxed"
             style={{ animationDelay: '0.5s' }}
           >
-            Premium micro-markets and smart vending for the nation&apos;s largest construction projects —
+            Premium micro-markets and smart vending for the nation&apos;s largest construction projects:
             data centers, hospitals, airports, semiconductor fabs, solar farms, and beyond.
           </p>
         </div>

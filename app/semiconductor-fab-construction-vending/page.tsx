@@ -3,7 +3,7 @@ import ConstructionServicePage from '@/components/ConstructionServicePage';
 
 export const metadata: Metadata = {
   title: 'Semiconductor Fab Construction Vending | Mission Critical Vending',
-  description: 'Micro-markets for semiconductor fab and chip plant construction. Billion-dollar projects, 1,000+ workers, aggressive timelines — multi-location market deployment at enterprise scale.',
+  description: 'Micro-markets for semiconductor fab and chip plant construction. Billion-dollar projects, 1,000+ workers, aggressive timelines. Multi-location market deployment at enterprise scale.',
   alternates: { canonical: '/semiconductor-fab-construction-vending' },
 };
 

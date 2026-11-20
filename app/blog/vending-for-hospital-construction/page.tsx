@@ -4,11 +4,11 @@ import { CalendarDays, Clock, ArrowLeft } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Vending for Hospital Construction Sites | Mission Critical Vending',
-  description: 'Hospital construction projects face food service challenges most vendors can\'t handle — strict badging, security-controlled access, and crews burning calories across 10-hour shifts. Here\'s what actually works.',
+  description: 'Hospital construction projects face food service challenges most vendors can\'t handle: strict badging, security-controlled access, and crews burning calories across 10-hour shifts. Here\'s what actually works.',
   alternates: { canonical: '/blog/vending-for-hospital-construction' },
   openGraph: {
     title: 'Vending for Hospital Construction Sites',
-    description: 'Hospital construction projects face food service challenges most vendors can\'t handle — strict badging, security-controlled access, and crews burning calories across 10-hour shifts.',
+    description: 'Hospital construction projects face food service challenges most vendors can\'t handle: strict badging, security-controlled access, and crews burning calories across 10-hour shifts.',
     type: 'article',
   },
 };
@@ -48,7 +48,7 @@ export default function BlogPostPage() {
 
           <p>
             Hospital construction is some of the most complex work in the industry. You&apos;re
-            building — or expanding — a functioning medical facility. Security access is tight.
+            building (or expanding) a functioning medical facility. Security access is tight.
             Vendor badging requirements are strict. The general contractor is running multiple
             subcontractor crews simultaneously, often across an active campus where patients
             are still receiving care fifty feet away.
@@ -76,8 +76,8 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            Standard construction site vending problems — stockouts, cash-only equipment, vendors
-            who can&apos;t find the site — all apply on a hospital build. But hospital projects add a
+            Standard construction site vending problems (stockouts, cash-only equipment, vendors
+            who can&apos;t find the site) all apply on a hospital build. But hospital projects add a
             second layer of complexity that eliminates most vending operators right from the start.
           </p>
 
@@ -113,10 +113,10 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'Background checks and fingerprinting on all operations staff — standard, not on request',
+              'Background checks and fingerprinting on all operations staff (standard, not on request)',
               'Experience navigating the vendor credentialing process with hospital systems and large GCs',
               'Liability insurance that meets hospital-grade vendor requirements (often $5M+ general liability)',
-              'Established protocols for scheduling restocking visits through site security — not just showing up',
+              'Established protocols for scheduling restocking visits through site security, not just showing up',
               'Trained staff who understand controlled-access environments and know how to work quietly within them',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
@@ -136,15 +136,15 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            The workforce on a major hospital construction project is doing hard physical labor —
+            The workforce on a major hospital construction project is doing hard physical labor:
             concrete work, structural steel, MEP rough-in, medical gas piping, specialty equipment
             installation. These are not desk workers. They&apos;re burning 3,000 to 5,000 calories
             a day in some cases.
           </p>
 
           <p>
-            Standard hospital vending machine fare — the machines inside the hospital itself,
-            stocked for patients and visitors — is completely wrong for construction crews.
+            Standard hospital vending machine fare (the machines inside the hospital itself,
+            stocked for patients and visitors) is completely wrong for construction crews.
             Low-calorie snacks, pudding cups, and diet beverages are not what ironworkers need
             on a 10-hour shift.
           </p>
@@ -155,11 +155,11 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'High-protein deli sandwiches, wraps, and ready-to-eat meals — real food, not vending machine afterthoughts',
+              'High-protein deli sandwiches, wraps, and ready-to-eat meals: real food, not vending machine afterthoughts',
               'Beef jerky, hard-boiled eggs, protein bars, and high-calorie snacks that sustain heavy labor',
-              'Electrolyte drinks, sports beverages, and premium water — hydration matters even more on indoor builds where HVAC isn\'t fully operational',
+              'Electrolyte drinks, sports beverages, and premium water: hydration matters even more on indoor builds where HVAC isn\'t fully operational',
               'Energy drinks and coffee options for crews pulling early morning or late-shift work',
-              'Hot food options where possible — burritos, breakfast sandwiches, items that actually function as a meal',
+              'Hot food options where possible: burritos, breakfast sandwiches, items that actually function as a meal',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -173,14 +173,14 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            The typical fallback on a large construction site — food trucks lined up at the gate —
+            The typical fallback on a large construction site (food trucks lined up at the gate)
             doesn&apos;t work on a hospital campus. Food trucks can&apos;t get through the security
             perimeter. They can&apos;t park on an active medical campus. The GC doesn&apos;t want
             them there, and the hospital system definitely doesn&apos;t.
           </p>
 
           <p>
-            A properly deployed micro-market replaces the food truck entirely — and does it better.
+            A properly deployed micro-market replaces the food truck entirely and does it better.
             Instead of a 30-minute wait in a lunch line, crews walk to a market inside the
             construction tent, grab what they need, tap their card at a self-checkout kiosk, and
             are back to work in two minutes. No line. No cash. No waiting.
@@ -188,7 +188,7 @@ export default function BlogPostPage() {
 
           <p>
             The technology makes this possible. Mashgin self-checkout kiosks use 3D computer vision
-            to scan multiple items at once — no barcodes, no manual entry. Checkout takes under two
+            to scan multiple items at once: no barcodes, no manual entry. Checkout takes under two
             seconds. For a crew of 400 workers with a 30-minute break window, that speed matters
             enormously. A machine that processes one transaction every 15 seconds can serve 120
             workers in the break period. A traditional vending machine serving the same crew
@@ -209,13 +209,13 @@ export default function BlogPostPage() {
           <p>
             During foundation and structural work, crews are spread across the full footprint.
             During interior rough-in, they concentrate by floor and wing. During medical equipment
-            installation and commissioning, the crew composition changes — different specialty
+            installation and commissioning, the crew composition changes: different specialty
             trades move in, general laborers scale back.
           </p>
 
           <p>
             A good vending partner repositions equipment as the project evolves. Modular shelving,
-            smart coolers, and kiosks can be moved to follow the active work zone — keeping the
+            smart coolers, and kiosks can be moved to follow the active work zone, keeping the
             market within a short walk of wherever the majority of the crew is working at any given
             phase. This isn&apos;t optional. A market that&apos;s a 10-minute walk from the work zone
             gets half the utilization of one that&apos;s a two-minute walk.
@@ -229,9 +229,9 @@ export default function BlogPostPage() {
             {[
               { q: 'Can your entire operations team pass a background check and get badged?', a: 'This is non-negotiable. If any part of the answer is uncertain, move on.' },
               { q: 'What liability coverage do you carry?', a: 'Hospital systems and large GCs often require $5M or more in general liability. Get the certificate before any conversation goes further.' },
-              { q: 'How do you coordinate restocking with controlled-access sites?', a: 'Look for a vendor who schedules through site security proactively — not one who shows up and figures it out at the gate.' },
+              { q: 'How do you coordinate restocking with controlled-access sites?', a: 'Look for a vendor who schedules through site security proactively, not one who shows up and figures it out at the gate.' },
               { q: 'What\'s your restocking frequency on a 400-person site?', a: 'A site this size can burn through a market in two to three days. You need a vendor who\'s monitoring inventory in real time, not visiting once a week.' },
-              { q: 'Can your equipment move as the project phases change?', a: 'Ask directly. Modular setup is the standard for large multi-year builds — make sure they can execute it.' },
+              { q: 'Can your equipment move as the project phases change?', a: 'Ask directly. Modular setup is the standard for large multi-year builds. Make sure they can execute it.' },
             ].map(({ q, a }, i) => (
               <li key={q}>
                 <p className="text-steel-50 font-semibold mb-1">{i + 1}. {q}</p>
@@ -254,7 +254,7 @@ export default function BlogPostPage() {
 
           <p>
             If you&apos;re a GC or project owner managing a major hospital build and you&apos;re tired
-            of food service being a problem — there&apos;s a purpose-built solution for your site.
+            of food service being a problem, there&apos;s a purpose-built solution for your site.
           </p>
 
         </div>
@@ -266,8 +266,8 @@ export default function BlogPostPage() {
             Request a Market Layout for Your Hospital Build
           </h3>
           <p className="text-steel-300 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-            Tell us about your project — crew size, construction phase, site access requirements — and
-            we&apos;ll design a compliant, zero-cost micro-market solution for your specific environment.
+            Tell us about your project (crew size, construction phase, site access requirements) and
+            we&apos;ll design a compliant micro-market solution for your specific environment.
           </p>
           <a
             href="/#contact"

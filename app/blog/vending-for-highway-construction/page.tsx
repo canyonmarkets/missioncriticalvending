@@ -38,12 +38,12 @@ export default function BlogPostPage() {
           <p>
             Highway and bridge construction has a food service problem that no other project
             type shares: the workforce is spread across miles of active corridor, there&apos;s
-            no fixed break room, and the nearest restaurant might be accessible — but getting
+            no fixed break room, and the nearest restaurant might be accessible, but getting
             there and back burns half of a worker&apos;s 30-minute break.
           </p>
 
           <p>
-            A standard construction site has a clear center of gravity — a general contractor
+            A standard construction site has a clear center of gravity: a general contractor
             trailer, a break room, a defined work zone. A highway project has a staging area,
             but the active work can be anywhere along a 10-mile stretch of right-of-way on
             any given day. Crews move constantly. The work zone shifts. And the workers who
@@ -62,8 +62,8 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            On a large highway project — a major interstate expansion, a bridge replacement,
-            a tunnel rehabilitation — the workforce doesn&apos;t congregate in one place.
+            On a large highway project (a major interstate expansion, a bridge replacement,
+            a tunnel rehabilitation), the workforce doesn&apos;t congregate in one place.
             Grading crews work the furthest points of the active corridor. Paving crews
             follow behind. Bridge crews work at fixed structures that may be miles from the
             main staging area. Drainage and utility crews work in between.
@@ -73,8 +73,8 @@ export default function BlogPostPage() {
             At any given moment, a project with 300 total workers might have them split
             across 4 or 5 active work areas. A single centrally located micro-market serves
             the workers closest to it well and serves everyone else poorly. The workers who
-            most need convenient food access — the ones doing the hardest physical work
-            furthest from the staging area — are the ones who get the worst service from
+            most need convenient food access (the ones doing the hardest physical work
+            furthest from the staging area) are the ones who get the worst service from
             a fixed central installation.
           </p>
 
@@ -83,7 +83,7 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            Highway construction often runs at night — lane closures that can&apos;t happen
+            Highway construction often runs at night: lane closures that can&apos;t happen
             during peak traffic hours, bridge work that has to stop before morning rush.
             Night crews face a food access problem that day crews don&apos;t: at 2am on a
             highway project, there is nothing open within a reasonable distance. Gas stations
@@ -93,8 +93,8 @@ export default function BlogPostPage() {
 
           <p>
             A properly stocked micro-market positioned at the staging area solves the night
-            shift food access problem completely. Workers have access to real food — deli
-            meals, protein-rich snacks, hot beverages — at any hour, without leaving the
+            shift food access problem completely. Workers have access to real food (deli
+            meals, protein-rich snacks, hot beverages) at any hour, without leaving the
             work zone.
           </p>
 
@@ -106,15 +106,15 @@ export default function BlogPostPage() {
             Highway and bridge projects typically don&apos;t have permanent break room
             structures at the start of the project. The staging area usually includes
             contractor trailers, equipment storage, and temporary facilities. That&apos;s
-            where the micro-market goes — inside the largest trailer or a dedicated
+            where the micro-market goes: inside the largest trailer or a dedicated
             temporary structure at the main staging area.
           </p>
 
           <p>
             For a corridor project with crews spread across a long stretch, the more
             effective solution is a combination: a main market at the central staging area
-            and mobile vending units — fully stocked smart coolers or compact kiosk setups
-            — positioned closer to remote work zones and moved as the active work advances.
+            and mobile vending units (fully stocked smart coolers or compact kiosk setups)
+            positioned closer to remote work zones and moved as the active work advances.
           </p>
 
           <p>
@@ -123,11 +123,11 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'Portability — equipment that can be moved as the work zone advances along the corridor',
-              'Night-shift stocking — inventory restocked before the overnight crew arrives, not after they\'ve been working for six hours on an empty market',
-              'Weather-appropriate inventory — crews working in heat need hydration in volume; crews working in winter conditions need hot beverages and calorie-dense food',
-              'Cashless payment — highway workers don\'t carry cash to active work zones. Tap-to-pay is the only option that works at scale.',
-              'Durability — equipment in a staging area trailer or temporary structure takes more abuse than equipment in a climate-controlled office break room',
+              'Portability: equipment that can be moved as the work zone advances along the corridor',
+              'Night-shift stocking: inventory restocked before the overnight crew arrives, not after they\'ve been working for six hours on an empty market',
+              'Weather-appropriate inventory: crews working in heat need hydration in volume; crews working in winter conditions need hot beverages and calorie-dense food',
+              'Cashless payment: highway workers don\'t carry cash to active work zones. Tap-to-pay is the only option that works at scale.',
+              'Durability: equipment in a staging area trailer or temporary structure takes more abuse than equipment in a climate-controlled office break room',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -143,7 +143,7 @@ export default function BlogPostPage() {
           <p>
             Road and bridge construction is among the most physically demanding work in
             the industry. Paving crews working in extreme heat, ironworkers on bridge
-            structures, concrete finishers on deck pours — these workers burn enormous
+            structures, concrete finishers on deck pours. These workers burn enormous
             calories and need nutrition that matches the output.
           </p>
 
@@ -153,11 +153,11 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'High-calorie, high-protein portable food — jerky, protein bars, hard-boiled eggs, deli sandwiches that hold at temperature',
-              'Electrolyte drinks in volume — paving crews in summer heat need serious hydration support',
-              'Hot beverages — night crews and winter crews need coffee and hot drinks that aren\'t available at a cold vending machine',
-              'Energy drinks and pre-workout options — sustained energy across a 10-hour overnight shift requires real support',
-              'Quick-grab options — workers often don\'t have time to browse; high-turnover staples need to be in obvious, accessible locations',
+              'High-calorie, high-protein portable food: jerky, protein bars, hard-boiled eggs, deli sandwiches that hold at temperature',
+              'Electrolyte drinks in volume: paving crews in summer heat need serious hydration support',
+              'Hot beverages: night crews and winter crews need coffee and hot drinks that aren\'t available at a cold vending machine',
+              'Energy drinks and pre-workout options: sustained energy across a 10-hour overnight shift requires real support',
+              'Quick-grab options: workers often don\'t have time to browse; high-turnover staples need to be in obvious, accessible locations',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -178,7 +178,7 @@ export default function BlogPostPage() {
 
           <p>
             A smart vending setup on a highway project repositions to follow that movement.
-            Modular equipment — compact shelving, portable coolers, and Mashgin kiosk units —
+            Modular equipment (compact shelving, portable coolers, and Mashgin kiosk units)
             can be relocated to new staging areas as the project advances, keeping the market
             within a short walk of wherever the majority of the crew is working at any given phase.
           </p>
@@ -214,7 +214,7 @@ export default function BlogPostPage() {
 
           <p>
             Highway and bridge construction presents a food service challenge that fixed vending
-            installations can&apos;t solve alone — a mobile, distributed workforce that moves
+            installations can&apos;t solve alone: a mobile, distributed workforce that moves
             with the work, often at night, often in weather extremes, with no access to nearby
             food options. The right solution combines a well-stocked main market at the staging
             area with the flexibility to extend service toward active work zones as the project advances.
@@ -222,7 +222,7 @@ export default function BlogPostPage() {
 
           <p>
             If you&apos;re running a major highway or infrastructure project and food service
-            is a recurring problem — we build setups specifically for distributed, mobile
+            is a recurring problem, we build setups specifically for distributed, mobile
             construction environments.
           </p>
 
@@ -232,7 +232,7 @@ export default function BlogPostPage() {
           <p className="text-ember-500 font-mono text-xs tracking-[0.3em] uppercase mb-3">Get Started</p>
           <h3 className="font-display font-bold text-xl sm:text-2xl uppercase tracking-wide text-steel-50 mb-4">Request a Market Layout for Your Infrastructure Project</h3>
           <p className="text-steel-300 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-            Tell us about your project — corridor length, crew size, staging area setup — and we&apos;ll design a zero-cost mobile vending solution for your specific environment.
+            Tell us about your project (corridor length, crew size, staging area setup) and we&apos;ll design a mobile vending solution for your specific environment.
           </p>
           <a href="/#contact" className="inline-flex items-center gap-2 rounded-lg bg-ember-500 px-8 py-4 text-sm font-semibold text-white uppercase tracking-wide hover:bg-ember-400 transition-colors duration-200">
             Request a Layout

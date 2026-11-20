@@ -39,7 +39,7 @@ export default function BlogPostPage() {
             Stadium and arena construction projects operate under a pressure that most construction
             programs don&apos;t face: a hard, immovable, publicly known completion deadline. When
             the NFL schedules opening day, or the NBA books the first preseason game, or the city
-            locks in a ribbon-cutting for the new arena — the project has to be done. No extensions.
+            locks in a ribbon-cutting for the new arena, the project has to be done. No extensions.
             No grace periods. The schedule is the schedule.
           </p>
 
@@ -60,10 +60,10 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            Most stadium and arena projects are built in urban environments — downtown districts,
+            Most stadium and arena projects are built in urban environments: downtown districts,
             sports entertainment corridors, dense neighborhoods where land is scarce and
-            parking is tightly controlled. The standard construction site food solution — food
-            trucks at the gate — doesn&apos;t work when there&apos;s no gate to park at, no
+            parking is tightly controlled. The standard construction site food solution (food
+            trucks at the gate) doesn&apos;t work when there&apos;s no gate to park at, no
             curb that isn&apos;t regulated, and no room for a line of workers to queue on
             a public sidewalk.
           </p>
@@ -71,7 +71,7 @@ export default function BlogPostPage() {
           <p>
             Even when food trucks can physically access the site perimeter, the lunch rush
             problem remains. 500 workers with a 30-minute break window, one or two food trucks,
-            and a 5-minute transaction time per worker — the math doesn&apos;t work. Half the
+            and a 5-minute transaction time per worker. The math doesn&apos;t work. Half the
             crew doesn&apos;t get served before break ends.
           </p>
 
@@ -93,15 +93,15 @@ export default function BlogPostPage() {
           </p>
 
           <p>
-            A food service problem — workers leaving the site in groups, complaints about
-            empty machines, a vending vendor who can&apos;t find the access point — becomes
+            A food service problem (workers leaving the site in groups, complaints about
+            empty machines, a vending vendor who can&apos;t find the access point) becomes
             a project management issue faster than it would on a quiet industrial site.
             The GC doesn&apos;t want to hear about it, and they shouldn&apos;t have to.
           </p>
 
           <p>
             The right vending setup on a stadium project is one the GC never thinks about.
-            It&apos;s there, it&apos;s stocked, it works — and no one from site management
+            It&apos;s there, it&apos;s stocked, it works, and no one from site management
             is involved in operating it. Real-time inventory monitoring, proactive restocking,
             and direct worker support via QR code keep every issue contained at the vendor level.
           </p>
@@ -112,7 +112,7 @@ export default function BlogPostPage() {
 
           <p>
             Stadium projects often involve a workforce surge in the final months before
-            completion. As the opening deadline approaches, subcontractor crews stack up —
+            completion. As the opening deadline approaches, subcontractor crews stack up:
             structural finishes, interior systems, AV and scoreboard installation,
             concession build-outs, seating installation, and dozens of specialty trades
             running simultaneously in overlapping zones.
@@ -121,13 +121,13 @@ export default function BlogPostPage() {
           <p>
             A workforce that started at 300 workers can hit 700 or 800 in the final push.
             A vending vendor who sized equipment for 300 workers and can&apos;t scale
-            up rapidly is going to be a problem at exactly the wrong moment — when the
+            up rapidly is going to be a problem at exactly the wrong moment, when the
             deadline pressure is highest and the workforce is largest.
           </p>
 
           <p>
-            Modular equipment — additional shelving units, a second cooler, a second
-            Mashgin kiosk — can be added as headcount grows. Real-time inventory data
+            Modular equipment (additional shelving units, a second cooler, a second
+            Mashgin kiosk) can be added as headcount grows. Real-time inventory data
             drives the restocking cadence up automatically. The market scales with the
             project without requiring the GC to manage the transition.
           </p>
@@ -138,18 +138,18 @@ export default function BlogPostPage() {
 
           <p>
             Stadium construction is physically demanding work across the board. Structural
-            ironworkers, concrete crews, MEP installers, specialty finish trades — all burning
+            ironworkers, concrete crews, MEP installers, specialty finish trades, all burning
             serious calories across 10-hour shifts. The inventory on a stadium build micro-market
             needs to support that workload:
           </p>
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'High-protein deli sandwiches, wraps, and ready-to-eat meals — real food, not concession stand fare',
+              'High-protein deli sandwiches, wraps, and ready-to-eat meals: real food, not concession stand fare',
               'Beef jerky, protein bars, and high-calorie portable snacks for mid-shift fuel',
-              'Premium beverages — energy drinks, coffee, sports drinks — for early morning and late-shift crews',
-              'Hydration volume — especially important during summer months when stadium construction often runs hardest',
-              'Quick-grab options that work within a 30-minute break — not hot food that requires preparation time',
+              'Premium beverages: energy drinks, coffee, and sports drinks for early morning and late-shift crews',
+              'Hydration volume: especially important during summer months when stadium construction often runs hardest',
+              'Quick-grab options that work within a 30-minute break, not hot food that requires preparation time',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -184,14 +184,14 @@ export default function BlogPostPage() {
           <p>
             Stadium and arena construction is fast, visible, and unforgiving. The deadline
             is public knowledge. The workforce surges as it approaches. The urban environment
-            limits your options. A properly deployed micro-market handles all of it —
+            limits your options. A properly deployed micro-market handles all of it:
             scaling with the crew, operating around the clock, and running completely off
             the GC&apos;s plate.
           </p>
 
           <p>
             If you&apos;re building a stadium, arena, or large entertainment venue and food
-            service is becoming a problem — there&apos;s a better solution already built for it.
+            service is becoming a problem, there&apos;s a better solution already built for it.
           </p>
 
         </div>
@@ -200,7 +200,7 @@ export default function BlogPostPage() {
           <p className="text-ember-500 font-mono text-xs tracking-[0.3em] uppercase mb-3">Get Started</p>
           <h3 className="font-display font-bold text-xl sm:text-2xl uppercase tracking-wide text-steel-50 mb-4">Request a Market Layout for Your Stadium Project</h3>
           <p className="text-steel-300 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-            Tell us about your build — crew size, site location, timeline — and we&apos;ll design a zero-cost micro-market solution that scales with your schedule.
+            Tell us about your build (crew size, site location, timeline) and we&apos;ll design a micro-market solution that scales with your schedule.
           </p>
           <a href="/#contact" className="inline-flex items-center gap-2 rounded-lg bg-ember-500 px-8 py-4 text-sm font-semibold text-white uppercase tracking-wide hover:bg-ember-400 transition-colors duration-200">
             Request a Layout

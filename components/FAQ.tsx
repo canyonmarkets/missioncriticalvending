@@ -6,7 +6,7 @@ import { ChevronDown } from 'lucide-react';
 const FAQS = [
   {
     q: 'What is the actual cost to the general contractor or site management?',
-    a: 'There is zero cost, zero risk, and zero financial obligation for your project. We provide, install, stock, and maintain the entire micro-market and smart-vending setup completely free of charge. Your only requirement is providing a dedicated space and standard power connections.',
+    a: 'The program runs under one monthly service agreement, sized to your site and crew count. It covers the equipment, installation, restocking, maintenance, and our software. Workers pay for what they buy at the kiosk. On site, all we need from you is a dedicated space and standard power connections.',
   },
   {
     q: 'Construction sites have strict security protocols. How do your delivery drivers access the site?',
@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     q: 'We\'re based in [X state]. Do you operate in our area?',
-    a: 'Yes — Canyon Markets deploys nationwide with no geographic restrictions. Whether your project is in Texas, the Pacific Northwest, the Midwest, the Southeast, or anywhere in between, if your site is large enough to support a market, we will build it out for you. We are actively developing an operational infrastructure that allows us to place a fully stocked, fully managed micro-market on any qualifying large-scale construction site across the country. Submit a request and let us handle the logistics from there.',
+    a: 'Yes, Canyon Markets deploys nationwide with no geographic restrictions. Whether your project is in Texas, the Pacific Northwest, the Midwest, the Southeast, or anywhere in between, if your site is large enough to support a market, we will build it out for you. We are actively developing an operational infrastructure that allows us to place a fully stocked, fully managed micro-market on any qualifying large-scale construction site across the country. Submit a request and let us handle the logistics from there.',
   },
 ] as const;
 

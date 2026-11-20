@@ -12,12 +12,12 @@ export default function Page() {
     <ConstructionServicePage
       eyebrow="Renewable Energy"
       heading="Solar Farm Construction Vending"
-      intro="Remote desert sites. 30+ miles from the nearest food option. Crews working in triple-digit heat with serious hydration requirements. We bring a fully stocked market to the site — wherever that site happens to be."
+      intro="Remote desert sites. 30+ miles from the nearest food option. Crews working in triple-digit heat with serious hydration requirements. We bring a fully stocked market to the site, wherever that site happens to be."
       challenges={[
         'Remote locations with no nearby restaurants, gas stations, or food options within a reasonable drive',
-        'Desert heat makes hydration a safety requirement, not a preference — crews need electrolytes in volume',
+        'Desert heat makes hydration a safety requirement, not a preference. Crews need electrolytes in volume',
         'Large panel installation crews at peak can run 600-800 workers across a massive open-land footprint',
-        'Workforce scales from civil grading crews to panel installers to commissioning teams — the vendor has to scale with it',
+        'Workforce scales from civil grading crews to panel installers to commissioning teams. The vendor has to scale with it',
       ]}
       blogSlug="vending-for-solar-farm-construction"
       blogTitle="Vending for Solar Farm Construction: Feeding Remote Crews in the Middle of Nowhere"

@@ -4,8 +4,8 @@ import Reveal from '@/components/Reveal';
 const CARDS = [
   {
     icon: PackageCheck,
-    title: '100% Turnkey & Free',
-    body: 'No equipment costs, installation fees, or operational overhead — ever. We handle every aspect of setup and ongoing operations at zero expense to the general contractor.',
+    title: 'Fully Turnkey',
+    body: 'Equipment, installation, restocking, and every part of ongoing operations fall under one monthly service agreement. Nothing for your team to buy, install, or manage.',
   },
   {
     icon: ShieldCheck,
@@ -14,13 +14,13 @@ const CARDS = [
   },
   {
     icon: Handshake,
-    title: 'Zero-Contract Flexibility',
-    body: 'Our relationship is built entirely on performance and service quality. No restrictive agreements, no long-term commitments — just results that keep us on-site.',
+    title: 'Scales With Your Build',
+    body: 'The program grows and shrinks with your headcount and construction phases. Service levels are agreed up front, and we earn our place on site every week.',
   },
   {
     icon: BarChart3,
     title: 'Intelligent Restocking',
-    body: 'Data-driven inventory management synced to your shift patterns. High-protein meals, hydration, and site essentials — always stocked, never guessed.',
+    body: 'Data-driven inventory management synced to your shift patterns. High-protein meals, hydration, and site essentials. Always stocked, never guessed.',
   },
 ] as const;
 

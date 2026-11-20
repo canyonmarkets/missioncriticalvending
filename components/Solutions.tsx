@@ -27,7 +27,7 @@ const SECTIONS: Section[] = [
     id: 'micro-markets',
     eyebrow: 'On-Site Nutrition',
     heading: 'Premium Micro-Markets & Smart Coolers',
-    body: 'Large-scale construction projects run 24/7 across rotating shifts. We equip your site with fully stocked micro-markets and smart coolers engineered around the physical demands of heavy-duty construction work — not vending machine afterthoughts.',
+    body: 'Large-scale construction projects run 24/7 across rotating shifts. We equip your site with fully stocked micro-markets and smart coolers engineered around the physical demands of heavy-duty construction work, not vending machine afterthoughts.',
     features: [
       {
         icon: Beef,
@@ -42,7 +42,7 @@ const SECTIONS: Section[] = [
       {
         icon: Droplets,
         label: 'Hydration Station',
-        detail: 'Electrolyte drinks, sports beverages, and premium water options — always within reach, always cold.',
+        detail: 'Electrolyte drinks, sports beverages, and premium water options. Always within reach, always cold.',
       },
     ],
     imageAlt: 'Premium micro-market installation',
@@ -56,17 +56,17 @@ const SECTIONS: Section[] = [
     eyebrow: 'Site-Wide Convenience',
     heading: 'Smart Vending & Site Essentials',
     subheading: 'Enterprise-Grade Tech. Seamless Operations.',
-    body: 'Lost time costs money. Our smart kiosks deploy directly near active work zones — providing contactless access to nutrition, hydration, PPE, and site essentials around the clock. Backed by enterprise-class hardware purpose-built for demanding field environments.',
+    body: 'Lost time costs money. Our smart kiosks deploy directly near active work zones, providing contactless access to nutrition, hydration, PPE, and site essentials around the clock. Backed by enterprise-class hardware purpose-built for demanding field environments.',
     features: [
       {
         icon: Scan,
         label: 'Mashgin 3D Vision Checkout',
-        detail: 'Speed is critical on a massive job site. Our micro-markets feature Mashgin self-checkout kiosks with advanced 3D computer vision — scanning multiple items simultaneously, no barcodes required, checkouts completed in under two seconds. Workers refuel and return to the line instantly.',
+        detail: 'Speed is critical on a massive job site. Our micro-markets feature Mashgin self-checkout kiosks with advanced 3D computer vision, scanning multiple items simultaneously, no barcodes required, checkouts completed in under two seconds. Workers refuel and return to the line instantly.',
       },
       {
         icon: Camera,
         label: 'Panoptyc Smart Security System',
-        detail: 'Large-scale job sites demand strict oversight. We protect our inventory and your facility with Panoptyc AI-powered smart cameras — 24/7 autonomous monitoring, intelligent loss-detection analytics, and proactive security alerts. Complete operational integrity with zero burden on site management.',
+        detail: 'Large-scale job sites demand strict oversight. We protect our inventory and your facility with Panoptyc AI-powered smart cameras: 24/7 autonomous monitoring, intelligent loss-detection analytics, and proactive security alerts. Complete operational integrity with zero burden on site management.',
       },
     ],
     imageAlt: 'Canyon Markets micro-market setup inside a data center construction tent',

@@ -37,7 +37,7 @@ export default function BlogPostPage() {
 
           <p>
             Refinery and petrochemical construction is some of the most demanding work in the
-            industry — and some of the most compliance-intensive. Whether it&apos;s a major
+            industry, and some of the most compliance-intensive. Whether it&apos;s a major
             capital project building new processing units, or a turnaround that shuts down
             a refinery unit for weeks of intensive maintenance and upgrade work, these projects
             concentrate large numbers of highly specialized workers inside a controlled industrial
@@ -49,7 +49,7 @@ export default function BlogPostPage() {
             Feeding that workforce is a real problem. Refinery sites are often located in
             industrial corridors with limited nearby food options. The security perimeter means
             workers can&apos;t freely leave during breaks without re-badging through access
-            control. And turnaround crews — which can number in the thousands at peak — work
+            control. And turnaround crews (which can number in the thousands at peak) work
             around the clock on compressed timelines where every hour of downtime costs the
             facility owner significant money.
           </p>
@@ -81,12 +81,12 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'Complete the facility\'s vendor registration and safety orientation — often a multi-hour process',
+              'Complete the facility\'s vendor registration and safety orientation, often a multi-hour process',
               'Pass background checks aligned with the facility operator\'s requirements',
-              'Carry site-specific PPE at all times — hard hat, safety glasses, steel-toe boots, hi-vis vest at minimum',
+              'Carry site-specific PPE at all times: hard hat, safety glasses, steel-toe boots, hi-vis vest at minimum',
               'Understand and comply with the facility\'s hot work, confined space, and permit-required access protocols',
-              'Have vehicles inspected before access — spark arrestors, proper marking, approved routing',
-              'Carry liability coverage that meets the facility operator\'s vendor requirements — often $10M or more',
+              'Have vehicles inspected before access: spark arrestors, proper marking, approved routing',
+              'Carry liability coverage that meets the facility operator\'s vendor requirements, often $10M or more',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -111,18 +111,18 @@ export default function BlogPostPage() {
 
           <p>
             A <strong>turnaround</strong> is a planned shutdown of a processing unit for
-            inspection, maintenance, and upgrade work. Turnarounds are intense — they typically
+            inspection, maintenance, and upgrade work. Turnarounds are intense. They typically
             run 24 hours a day, 7 days a week, for 3 to 8 weeks. The workforce surges rapidly
             as the shutdown begins and scales back down as units come back online. At peak, a
             major refinery turnaround can bring 2,000 to 4,000 craft workers on-site
-            simultaneously. The timeline is fixed — every day of extended shutdown costs the
+            simultaneously. The timeline is fixed. Every day of extended shutdown costs the
             facility hundreds of thousands of dollars in lost production. Food service has to
             keep up with that pace without adding any operational complexity.
           </p>
 
           <p>
-            A <strong>capital project</strong> — a new processing unit, a capacity expansion,
-            a new storage facility — runs on a longer timeline but at sustained scale. These
+            A <strong>capital project</strong> (a new processing unit, a capacity expansion,
+            a new storage facility) runs on a longer timeline but at sustained scale. These
             projects can run one to five years with a stable workforce of 300 to 1,000 workers
             in the active construction phase.
           </p>
@@ -132,8 +132,8 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            The craft workers on a refinery project — pipefitters, boilermakers, vessel entry
-            specialists, insulation crews, electrical crews, instrumentation technicians — are
+            The craft workers on a refinery project (pipefitters, boilermakers, vessel entry
+            specialists, insulation crews, electrical crews, instrumentation technicians) are
             highly skilled tradespeople doing physically demanding work in a hazardous environment.
             Their nutritional needs during a compressed turnaround schedule are substantial.
           </p>
@@ -144,10 +144,10 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'Night shift workers need the same quality food options as day shift workers — and often better, since they\'re working the hardest hours',
+              'Night shift workers need the same quality food options as day shift workers, and often better, since they\'re working the hardest hours',
               'Hydration is critical in process environments where ambient heat from operating equipment can be extreme even during maintenance shutdowns',
               'High-protein, high-calorie options sustain workers through compressed 12-hour shifts without adequate sleep',
-              'Quick checkout matters enormously — turnaround break windows are short, and workers who spend their break in a food line are not resting',
+              'Quick checkout matters enormously. Turnaround break windows are short, and workers who spend their break in a food line are not resting',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -163,8 +163,8 @@ export default function BlogPostPage() {
           <p>
             Turnarounds don&apos;t give you weeks to set up food service. The shutdown starts,
             the workforce surges, and the market needs to be operational from day one. A vendor
-            who can deploy a fully stocked micro-market in 24 to 48 hours — inside an existing
-            break structure within the facility perimeter — is the only option that works for
+            who can deploy a fully stocked micro-market in 24 to 48 hours (inside an existing
+            break structure within the facility perimeter) is the only option that works for
             a turnaround schedule.
           </p>
 
@@ -178,7 +178,7 @@ export default function BlogPostPage() {
 
           <p>
             When the turnaround ends and the workforce demobilizes, the equipment comes out the
-            same way it went in — quickly, cleanly, without leaving a trace in the facility.
+            same way it went in: quickly, cleanly, without leaving a trace in the facility.
           </p>
 
           <h2 className="font-display font-bold text-xl sm:text-2xl uppercase tracking-wide text-steel-50 mt-10 mb-4">
@@ -191,7 +191,7 @@ export default function BlogPostPage() {
               { q: 'What liability coverage do you carry?', a: 'Process industry facility operators routinely require $10M or more in general liability. Verify before any further conversation.' },
               { q: 'Can you deploy rapidly for a turnaround startup?', a: 'If the answer involves more than 48 hours from decision to operational market, they won\'t work for a turnaround schedule.' },
               { q: 'How do you handle 24/7 operations on a compressed turnaround timeline?', a: 'Night shifts need food. Markets need restocking around the clock on a peak turnaround with 3,000 workers. Ask specifically about overnight restocking capability.' },
-              { q: 'Can your vehicles meet the facility\'s access requirements?', a: 'Spark arrestors, vehicle inspections, approved routing — a vendor who has never serviced a process industry site will not have their fleet ready for this.' },
+              { q: 'Can your vehicles meet the facility\'s access requirements?', a: 'Spark arrestors, vehicle inspections, approved routing. A vendor who has never serviced a process industry site will not have their fleet ready for this.' },
             ].map(({ q, a }, i) => (
               <li key={q}>
                 <p className="text-steel-50 font-semibold mb-1">{i + 1}. {q}</p>
@@ -216,7 +216,7 @@ export default function BlogPostPage() {
 
           <p>
             If you&apos;re managing a refinery capital project or a major turnaround and
-            food service is a problem you need to solve fast — we&apos;re built for this environment.
+            food service is a problem you need to solve fast. We&apos;re built for this environment.
           </p>
 
         </div>
@@ -225,7 +225,7 @@ export default function BlogPostPage() {
           <p className="text-ember-500 font-mono text-xs tracking-[0.3em] uppercase mb-3">Get Started</p>
           <h3 className="font-display font-bold text-xl sm:text-2xl uppercase tracking-wide text-steel-50 mb-4">Request a Market Layout for Your Refinery Project</h3>
           <p className="text-steel-300 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-            Tell us about your project — turnaround or capital, crew size, timeline — and we&apos;ll design a compliant, zero-cost micro-market solution ready to deploy fast.
+            Tell us about your project (turnaround or capital, crew size, timeline) and we&apos;ll design a compliant micro-market solution ready to deploy fast.
           </p>
           <a href="/#contact" className="inline-flex items-center gap-2 rounded-lg bg-ember-500 px-8 py-4 text-sm font-semibold text-white uppercase tracking-wide hover:bg-ember-400 transition-colors duration-200">
             Request a Layout

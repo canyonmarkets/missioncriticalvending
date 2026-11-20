@@ -3,12 +3,12 @@ import { Phone, PackageCheck, ShieldCheck, BarChart3, MoveRight, Clock, QrCode }
 import Reveal from '@/components/Reveal';
 
 const BENEFITS = [
-  { icon: PackageCheck, title: '100% Free',          body: 'Equipment, installation, restocking, and maintenance — all at zero cost to the GC or project owner.' },
+  { icon: PackageCheck, title: 'One Agreement',      body: 'Equipment, installation, restocking, and maintenance under one monthly service agreement, sized to your site.' },
   { icon: ShieldCheck,  title: 'Enterprise Insured', body: 'Full liability coverage built to meet the requirements of large GCs, project owners, and regulated environments.' },
-  { icon: BarChart3,    title: 'Real-Time Restocking', body: 'Inventory monitored continuously — we restock before shelves run empty, not after your crew finds nothing.' },
+  { icon: BarChart3,    title: 'Real-Time Restocking', body: 'Inventory monitored continuously. We restock before shelves run empty, not after your crew finds nothing.' },
   { icon: MoveRight,    title: 'Modular & Mobile',   body: 'Equipment moves as your work zones shift across construction phases. The market follows the crew.' },
-  { icon: Clock,        title: '24/7 Operation',      body: 'Every shift covered — day, swing, and overnight. No staff required on-site from our team.' },
-  { icon: QrCode,       title: 'Direct Worker Support', body: 'QR code on every unit connects workers straight to us. Issues, refunds, requests — handled without involving your team.' },
+  { icon: Clock,        title: '24/7 Operation',      body: 'Every shift covered: day, swing, and overnight. No staff required on-site from our team.' },
+  { icon: QrCode,       title: 'Direct Worker Support', body: 'QR code on every unit connects workers straight to us. Issues, refunds, requests: handled without involving your team.' },
 ] as const;
 
 export type ServicePageProps = {
@@ -48,7 +48,7 @@ export default function ConstructionServicePage({
               href="/#contact"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-ember-500 px-8 py-4 text-sm font-semibold text-white uppercase tracking-wide hover:bg-ember-400 transition-colors duration-200"
             >
-              Request a Free Layout
+              Request a Site Layout
             </a>
             <a
               href="tel:+16029356830"
@@ -88,11 +88,11 @@ export default function ConstructionServicePage({
           <Reveal>
             <p className="text-ember-500 font-mono text-sm tracking-[0.3em] uppercase mb-3 text-center">Our Solution</p>
             <h2 className="font-display font-bold text-2xl sm:text-4xl uppercase tracking-wide text-steel-50 text-center mb-4">
-              Zero Cost. Full Service. Zero Burden.
+              One Agreement. Full Service. Zero Burden.
             </h2>
             <p className="text-steel-300 text-sm text-center max-w-xl mx-auto mb-12 leading-relaxed">
-              We provide, install, stock, and manage the entire micro-market setup at no charge to your project.
-              Your only requirement: a dedicated space and a standard power connection.
+              We provide, install, stock, and manage the entire micro-market setup under one monthly service agreement.
+              On site, all we need from you is a dedicated space and a standard power connection.
             </p>
           </Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -136,7 +136,7 @@ export default function ConstructionServicePage({
             Ready to Talk?
           </h2>
           <p className="text-steel-300 text-sm leading-relaxed">
-            Tell us your crew size, site location, and construction phase. We&apos;ll design a market layout specific to your project — at no cost.
+            Tell us your crew size, site location, and construction phase. We&apos;ll design a market layout specific to your project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

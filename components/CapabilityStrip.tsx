@@ -5,7 +5,7 @@ import Reveal from '@/components/Reveal';
  * (we intentionally avoid fabricated "sites served" numbers).
  */
 const STATS = [
-  { value: '$0', label: 'Cost to the GC' },
+  { value: '~3 sec', label: 'Self-checkout' },
   { value: '24/7', label: 'Every shift covered' },
   { value: '250+', label: 'Products stocked' },
   { value: 'Nationwide', label: 'Deployment reach' },

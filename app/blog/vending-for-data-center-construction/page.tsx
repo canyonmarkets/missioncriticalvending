@@ -69,13 +69,13 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            Standard vending machines were designed for office break rooms — predictable traffic,
+            Standard vending machines were designed for office break rooms: predictable traffic,
             moderate demand, easy access for restocking. A hyperscale data center build is none of those things.
           </p>
 
           <p>
             Consider the scale: a typical hyperscale data center construction project might run
-            300 to 600 workers across two or three shifts. That's not an office — that's a small town
+            300 to 600 workers across two or three shifts. That's not an office. That's a small town
             showing up every single day and expecting to eat. Traditional vending machines hold
             maybe 300 items total. At 400 workers, that's less than one item per person.
             You'd restock four times a day just to keep up.
@@ -83,7 +83,7 @@ export default function BlogPostPage() {
 
           <p>
             The logistics compound the problem. Most vending companies service their machines on a
-            scheduled route — they show up once a week, top off whatever sold, and leave.
+            scheduled route. They show up once a week, top off whatever sold, and leave.
             On a mission-critical construction project, a machine that runs empty on Wednesday
             and doesn't get restocked until next Tuesday isn't a minor inconvenience.
             It's a workforce morale problem, a productivity problem, and eventually a management problem.
@@ -94,7 +94,7 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            The solution that actually works at scale is a <strong>modular micro-market setup</strong> —
+            The solution that actually works at scale is a <strong>modular micro-market setup</strong>:
             not a vending machine, but a fully stocked open-format market installed inside a
             construction tent or temporary structure on-site.
           </p>
@@ -107,8 +107,8 @@ export default function BlogPostPage() {
             {[
               'Open shelving units stocked with 200+ SKUs: snacks, meal replacements, energy drinks, water, protein bars, and ready-to-eat meals',
               'Refrigerated cooler units for cold beverages, fresh sandwiches, deli items, and high-protein options',
-              'Mashgin self-checkout kiosks — 3D computer vision scans multiple items simultaneously, no barcode scanning required, checkout under two seconds',
-              'Cashless payment — tap, swipe, or scan to pay, no cash needed on a job site',
+              'Mashgin self-checkout kiosks: 3D computer vision scans multiple items simultaneously, no barcode scanning required, checkout under two seconds',
+              'Cashless payment: tap, swipe, or scan to pay, no cash needed on a job site',
               'Real-time inventory monitoring so the market gets restocked before it runs empty, not after',
               'Panoptyc AI smart cameras for 24/7 loss prevention without requiring on-site security',
             ].map((item) => (
@@ -121,7 +121,7 @@ export default function BlogPostPage() {
 
           <p>
             The result is a market that can serve a few hundred workers per shift without a
-            line or a bottleneck — and without anyone from your management team touching it.
+            line or a bottleneck, and without anyone from your management team touching it.
           </p>
 
           <h2 className="font-display font-bold text-xl sm:text-2xl uppercase tracking-wide text-steel-50 mt-10 mb-4">
@@ -130,7 +130,7 @@ export default function BlogPostPage() {
 
           <p>
             Data center construction is physically demanding work. MEP crews, structural iron workers,
-            concrete finishers, electricians — these are workers burning serious calories across
+            concrete finishers, electricians. These are workers burning serious calories across
             10-to-12-hour shifts. Standard vending machine fare (chips, candy, soda) doesn't
             support that kind of output. It leads to energy crashes, reduced focus, and slower
             work in the afternoon hours.
@@ -145,7 +145,7 @@ export default function BlogPostPage() {
             {[
               'High-protein options: beef jerky, protein bars, hard-boiled eggs, deli sandwiches',
               'Substantial meal replacements: protein shakes, meal bars, burritos, hot pockets',
-              'Hydration: electrolyte drinks, sports beverages, premium water — especially critical in Arizona summer heat',
+              'Hydration: electrolyte drinks, sports beverages, premium water, especially critical in Arizona summer heat',
               'Energy support: coffee drinks, energy drinks, pre-workout options',
               'Convenient real food: sandwiches, wraps, salads for workers who want something that resembles an actual meal',
             ].map((item) => (
@@ -158,7 +158,7 @@ export default function BlogPostPage() {
 
           <p>
             The data backs this up. On the projects we operate, the top-selling items are
-            consistently high-protein and hydration products — not candy bars. Workers on
+            consistently high-protein and hydration products, not candy bars. Workers on
             physically demanding builds know what their bodies need.
           </p>
 
@@ -175,7 +175,7 @@ export default function BlogPostPage() {
 
           <p>
             A smart vending setup for a large construction project needs to move with the work.
-            Modular equipment — shelving units, coolers, and kiosks — can be repositioned
+            Modular equipment (shelving units, coolers, and kiosks) can be repositioned
             as construction phases change, keeping the market as close to the active work zone
             as possible. Less travel time for workers means more time on the job and higher
             utilization of the market itself.
@@ -193,7 +193,7 @@ export default function BlogPostPage() {
 
           <p>
             The general contractor's job is to build the project on time and on budget.
-            Managing a food service operation — even a small one — is not in scope.
+            Managing a food service operation (even a small one) is not in scope.
             The right vending partner takes that entirely off the GC's plate.
           </p>
 
@@ -204,9 +204,9 @@ export default function BlogPostPage() {
           <ul className="list-none space-y-3 pl-0">
             {[
               'Equipment delivery, setup, and installation inside the tent or structure',
-              'All restocking, proactively driven by real-time sales data — not a guessed schedule',
-              'Equipment maintenance and repairs at zero cost to the GC',
-              'Worker support and issue resolution — QR code on every unit connects workers directly to the vendor, not to site management',
+              'All restocking, proactively driven by real-time sales data, not a guessed schedule',
+              'Equipment maintenance and repairs, handled by the vendor instead of your team',
+              'Worker support and issue resolution: QR code on every unit connects workers directly to the vendor, not to site management',
               'Loss prevention and security monitoring via AI-powered cameras',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
@@ -250,7 +250,7 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            Feeding a large data center construction workforce isn't an afterthought — it's a
+            Feeding a large data center construction workforce isn't an afterthought. It's a
             logistics operation that affects crew morale, retention, and daily productivity.
             Traditional vending machines aren't built for it. A properly designed and operated
             micro-market setup is.
@@ -259,7 +259,7 @@ export default function BlogPostPage() {
           <p>
             If you're a general contractor or project owner with a large construction workforce
             and you're tired of dealing with empty machines, cash-only equipment, and vendors
-            who can't find your site — there's a better option.
+            who can't find your site, there's a better option.
           </p>
 
         </div>
@@ -271,8 +271,8 @@ export default function BlogPostPage() {
             Request a Market Layout for Your Site
           </h3>
           <p className="text-steel-300 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-            Tell us about your project — crew size, site location, construction phase — and we'll
-            design a zero-cost micro-market solution for your specific footprint.
+            Tell us about your project (crew size, site location, construction phase) and we'll
+            design a micro-market solution for your specific footprint.
           </p>
           <a
             href="/#contact"

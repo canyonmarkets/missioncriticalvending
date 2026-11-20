@@ -82,7 +82,7 @@ export default function Navbar() {
           href={isHome ? '#home' : '/'}
           onClick={(e) => { e.preventDefault(); handleLink('#home'); }}
           className="flex items-center gap-3 group select-none"
-          aria-label="Canyon Markets — go to top"
+          aria-label="Canyon Markets: go to top"
         >
           {logoError ? (
             <PeaksLogoMark className="w-10 h-auto shrink-0" />

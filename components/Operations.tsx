@@ -6,21 +6,21 @@ const FEATURES = [
     step: '01',
     icon: BarChart2,
     heading: 'Data-Driven Inventory',
-    body: 'Every unit we place on-site feeds real-time sales data back to our operations team. We track velocity by SKU, by shift, and by location — so we know exactly what to stock before a machine ever runs empty. No guesswork. No shortfalls. No complaints routed through your management team.',
+    body: 'Every unit we place on-site feeds real-time sales data back to our operations team. We track velocity by SKU, by shift, and by location, so we know exactly what to stock before a machine ever runs empty. No guesswork. No shortfalls. No complaints routed through your management team.',
     tags: ['Real-Time Analytics', 'Predictive Restocking', 'Zero Stockouts'],
   },
   {
     step: '02',
     icon: QrCode,
     heading: 'Instant QR Support',
-    body: 'Every kiosk, cooler, and market unit carries a localized QR code that connects workers directly to our team. They can request specific inventory additions, submit instant refund requests, or report a technical issue — all without involving site management. Issues are triaged and resolved fast, completely off your plate.',
+    body: 'Every kiosk, cooler, and market unit carries a localized QR code that connects workers directly to our team. They can request specific inventory additions, submit instant refund requests, or report a technical issue, all without involving site management. Issues are triaged and resolved fast, completely off your plate.',
     tags: ['Direct Worker Access', 'Self-Service Refunds', 'Instant Issue Reporting'],
   },
   {
     step: '03',
     icon: MoveRight,
     heading: 'Rapid Footprint Mobility',
-    body: 'Large-scale builds evolve quickly — from concrete shell to MEP rough-in to interior fit-out, your workforce concentrations shift constantly. Our modular setups are designed to move with them. We reposition units to optimal locations as construction phases change, keeping service exactly where your crews are working.',
+    body: 'Large-scale builds evolve quickly. From concrete shell to MEP rough-in to interior fit-out, your workforce concentrations shift constantly. Our modular setups are designed to move with them. We reposition units to optimal locations as construction phases change, keeping service exactly where your crews are working.',
     tags: ['Phase-Adaptive Placement', 'Modular Equipment', 'No Site Downtime'],
   },
 ] as const;
@@ -40,7 +40,7 @@ export default function Operations() {
               Operations That Run Themselves
             </h2>
             <p className="text-steel-200 text-sm leading-relaxed max-w-sm lg:text-right">
-              Our technology stack handles inventory, support, and logistics automatically — so your team stays focused on the build.
+              Our technology stack handles inventory, support, and logistics automatically, so your team stays focused on the build.
             </p>
           </div>
           <div className="mt-8 h-px bg-gradient-to-r from-ember-500/60 via-ember-500/20 to-transparent" />

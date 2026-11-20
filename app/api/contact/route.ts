@@ -15,7 +15,7 @@ export async function POST(req: Request) {
     from: 'Canyon Markets <noreply@canyon-markets.com>',
     to: 'info@canyon-markets.com',
     replyTo: email,
-    subject: `New Market Inquiry — ${firstName} ${lastName}`,
+    subject: `New Market Inquiry: ${firstName} ${lastName}`,
     text: [
       `Name: ${firstName} ${lastName}`,
       `Email: ${email}`,

@@ -36,8 +36,8 @@ export default function BlogPostPage() {
         <div className="prose prose-invert prose-sm max-w-none text-steel-200 leading-relaxed space-y-6">
 
           <p>
-            Federal construction projects — whether they&apos;re on a military installation,
-            a VA medical campus, a federal courthouse, or a Department of Energy facility —
+            Federal construction projects (whether they&apos;re on a military installation,
+            a VA medical campus, a federal courthouse, or a Department of Energy facility)
             share a common challenge that separates them from every other construction project
             type: every vendor who sets foot on the property has to be cleared, vetted, and
             credentialed to do so.
@@ -52,7 +52,7 @@ export default function BlogPostPage() {
 
           <p>
             <strong>Vending for military and government construction</strong> requires a
-            vendor who has built their operations around compliance — not one who will try
+            vendor who has built their operations around compliance, not one who will try
             to figure out the access requirements after they&apos;ve already committed to
             your project. Here&apos;s what the environment actually demands.
           </p>
@@ -64,7 +64,7 @@ export default function BlogPostPage() {
           <p>
             On a commercial construction project, vendor access is controlled by the general
             contractor. The GC checks credentials, issues badges, and manages the gate.
-            On a federal project — particularly a military installation — vendor access is
+            On a federal project (particularly a military installation), vendor access is
             controlled by the installation itself. The base provost marshal&apos;s office,
             the facility security officer, or the contracting officer&apos;s representative
             determines who gets on the installation, under what conditions, and with what
@@ -77,10 +77,10 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'DBIDS enrollment (Defense Biometric Identification System) — the DoD standard for contractor and vendor access to military installations',
+              'DBIDS enrollment (Defense Biometric Identification System): the DoD standard for contractor and vendor access to military installations',
               'Background check through the National Crime Information Center (NCIC) at minimum, with more extensive checks for higher-security installations',
               'Vehicle registration and inspection before access is granted',
-              'Escort requirements in certain areas — not all vendor staff can move freely on an installation at all times',
+              'Escort requirements in certain areas: not all vendor staff can move freely on an installation at all times',
               'Specific insurance requirements aligned with federal contractor standards',
               'Compliance with the contractor\'s own subcontractor management plan as required by the prime contract',
             ].map((item) => (
@@ -93,7 +93,7 @@ export default function BlogPostPage() {
 
           <p>
             A vendor who has never navigated this process will slow down your project from
-            day one. The clearance process takes time — sometimes weeks. Starting that process
+            day one. The clearance process takes time, sometimes weeks. Starting that process
             after the project has already begun is not an option on a federal build.
           </p>
 
@@ -102,7 +102,7 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            Federal construction is a major sector of the U.S. construction industry —
+            Federal construction is a major sector of the U.S. construction industry,
             and it&apos;s been growing. Military infrastructure modernization programs,
             VA hospital construction and renovation, federal courthouse and office building
             programs, Department of Energy facility construction, and FEMA disaster
@@ -110,8 +110,8 @@ export default function BlogPostPage() {
           </p>
 
           <p>
-            A major military construction project — a new barracks complex, a flight line
-            facility, a maintenance hangar, or a medical treatment facility — can easily
+            A major military construction project (a new barracks complex, a flight line
+            facility, a maintenance hangar, or a medical treatment facility) can easily
             run 300 to 600 construction workers at peak. On a large installation with multiple
             simultaneous projects, the total contractor workforce on base at any given time
             can be significantly larger.
@@ -120,7 +120,7 @@ export default function BlogPostPage() {
           <p>
             These workers are on an installation. They can&apos;t leave freely during breaks.
             They don&apos;t have access to the installation&apos;s own food service facilities
-            in most cases — those are reserved for military personnel. Their food options are
+            in most cases. Those are reserved for military personnel. Their food options are
             whatever is available on the construction site itself. Without a proper on-site
             food service solution, that often means nothing.
           </p>
@@ -131,7 +131,7 @@ export default function BlogPostPage() {
 
           <p>
             Federal construction crews are doing the same physically demanding work as
-            any other large construction workforce — structural steel, MEP installation,
+            any other large construction workforce: structural steel, MEP installation,
             concrete work, specialty systems. Their nutritional needs are consistent with
             heavy labor on a 10-hour shift: high protein, sustained energy, hydration,
             and real food that functions as a meal rather than a vending machine afterthought.
@@ -143,10 +143,10 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'No cash on many installations — workers on base often don\'t carry cash. Cashless payment is not optional, it\'s required for any practical utilization of the market.',
-              'Early start times — many military construction projects begin at 6am or earlier. The market has to be fully stocked before the crew arrives, not after.',
-              'Controlled access for restocking — every restocking visit has to be pre-coordinated with installation security. A vendor who shows up unannounced doesn\'t get through the gate.',
-              'Security camera considerations — Panoptyc AI monitoring systems must be disclosed and approved by the installation security officer before deployment.',
+              'No cash on many installations: workers on base often don\'t carry cash. Cashless payment is not optional, it\'s required for any practical utilization of the market.',
+              'Early start times: many military construction projects begin at 6am or earlier. The market has to be fully stocked before the crew arrives, not after.',
+              'Controlled access for restocking: every restocking visit has to be pre-coordinated with installation security. A vendor who shows up unannounced doesn\'t get through the gate.',
+              'Security camera considerations: Panoptyc AI monitoring systems must be disclosed and approved by the installation security officer before deployment.',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -164,7 +164,7 @@ export default function BlogPostPage() {
             broader compliance framework that shapes how every aspect of the relationship
             works. The prime contractor on a federal project is bound by their contract
             with the government. Every subcontractor and vendor they bring on-site is
-            subject to the terms of that prime contract — including requirements around
+            subject to the terms of that prime contract, including requirements around
             safety, insurance, equal employment, and documentation.
           </p>
 
@@ -178,7 +178,7 @@ export default function BlogPostPage() {
               'Complete subcontractor prequalification documentation as required by the prime\'s contract management plan',
               'Comply with the site-specific safety plan, including required PPE, toolbox talk participation, and incident reporting protocols',
               'Maintain documentation of all access credentials for all staff who enter the installation',
-              'Coordinate all delivery and restocking activity through the prime\'s site superintendent — not independently',
+              'Coordinate all delivery and restocking activity through the prime\'s site superintendent, not independently',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -221,7 +221,7 @@ export default function BlogPostPage() {
           <p>
             If you&apos;re a prime contractor on a federal military or government construction
             project and you need food service that can actually get on-site and operate within
-            the compliance environment — that&apos;s exactly what we&apos;re built for.
+            the compliance environment, that&apos;s exactly what we&apos;re built for.
           </p>
 
         </div>
@@ -230,7 +230,7 @@ export default function BlogPostPage() {
           <p className="text-ember-500 font-mono text-xs tracking-[0.3em] uppercase mb-3">Get Started</p>
           <h3 className="font-display font-bold text-xl sm:text-2xl uppercase tracking-wide text-steel-50 mb-4">Request a Market Layout for Your Federal Project</h3>
           <p className="text-steel-300 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-            Tell us about your project — installation, crew size, access requirements — and we&apos;ll design a compliant, zero-cost micro-market solution built for the federal environment.
+            Tell us about your project (installation, crew size, access requirements) and we&apos;ll design a compliant micro-market solution built for the federal environment.
           </p>
           <a href="/#contact" className="inline-flex items-center gap-2 rounded-lg bg-ember-500 px-8 py-4 text-sm font-semibold text-white uppercase tracking-wide hover:bg-ember-400 transition-colors duration-200">
             Request a Layout

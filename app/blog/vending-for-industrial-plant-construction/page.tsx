@@ -36,15 +36,15 @@ export default function BlogPostPage() {
         <div className="prose prose-invert prose-sm max-w-none text-steel-200 leading-relaxed space-y-6">
 
           <p>
-            The construction of a large industrial plant — whether it&apos;s an automotive
+            The construction of a large industrial plant (whether it&apos;s an automotive
             assembly facility, a food processing plant, a chemical manufacturing complex, or
-            a logistics mega-warehouse — shares one characteristic with every other large
+            a logistics mega-warehouse) shares one characteristic with every other large
             construction project: a massive workforce that needs to eat, every day, often
             in a location with no convenient food access nearby.
           </p>
 
           <p>
-            Industrial plant construction projects are frequently located outside urban cores —
+            Industrial plant construction projects are frequently located outside urban cores,
             in industrial parks, rural counties, or greenfield sites selected for land cost and
             zoning, not for proximity to restaurants. The nearest lunch option for 500 construction
             workers might be a gas station, a fast food drive-through 15 minutes away, or nothing
@@ -65,7 +65,7 @@ export default function BlogPostPage() {
             A large industrial facility build is not a single building going up on a suburban
             lot. A major auto assembly plant covers millions of square feet across multiple
             interconnected structures. A large warehouse and distribution facility can cover
-            500,000 to 2 million square feet of floor area — a footprint the size of multiple
+            500,000 to 2 million square feet of floor area, a footprint the size of multiple
             city blocks. A chemical or food processing plant involves dozens of specialized
             systems installations happening simultaneously.
           </p>
@@ -87,8 +87,8 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            Standard vending machines — the kind you&apos;d find in a school hallway or
-            an office lobby — are completely inadequate for an industrial plant construction
+            Standard vending machines (the kind you&apos;d find in a school hallway or
+            an office lobby) are completely inadequate for an industrial plant construction
             site. The problems are fundamental:
           </p>
 
@@ -113,7 +113,7 @@ export default function BlogPostPage() {
 
           <p>
             The solution that actually works on a large industrial plant build is a
-            micro-market setup — or multiple micro-market setups — deployed at the
+            micro-market setup (or multiple micro-market setups) deployed at the
             primary break areas across the site. Not vending machines. Not a food truck
             that may or may not show up. A fully stocked open-format market that workers
             can access during any break, on any shift, without leaving the site.
@@ -125,10 +125,10 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'A primary market at the main break room or GC trailer complex — serving the largest concentration of workers',
+              'A primary market at the main break room or GC trailer complex, serving the largest concentration of workers',
               'Satellite cooler units or compact kiosk setups positioned near secondary work zones in remote areas of the footprint',
-              'Real-time inventory monitoring across all locations — so the vendor knows which market is running low before workers arrive to find it empty',
-              'Restocking coordinated around shift patterns — so the markets are fullest at the start of the heaviest-traffic break periods',
+              'Real-time inventory monitoring across all locations, so the vendor knows which market is running low before workers arrive to find it empty',
+              'Restocking coordinated around shift patterns, so the markets are fullest at the start of the heaviest-traffic break periods',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -143,8 +143,8 @@ export default function BlogPostPage() {
 
           <p>
             Industrial plant construction is heavy physical work. MEP crews doing conduit
-            runs, pipe installation, ductwork, and equipment setting — structural crews
-            on steel erection and concrete work — all of these trades burn high calories
+            runs, pipe installation, ductwork, and equipment setting, and structural crews
+            on steel erection and concrete work: all of these trades burn high calories
             across long shifts and need nutritional support that matches the workload.
           </p>
 
@@ -158,7 +158,7 @@ export default function BlogPostPage() {
               'Calorie-dense snacks that carry workers through the afternoon: trail mix, protein bars, nut butter packs',
               'Hydration: electrolyte drinks and premium water are especially important in industrial environments where ambient temperatures can be extreme',
               'Energy: coffee drinks and energy beverages for early morning and night shift crews',
-              'Variety: a workforce of 500 or more workers has diverse preferences — a market stocked with 150+ SKUs serves them; a machine with 20 options doesn\'t',
+              'Variety: a workforce of 500 or more workers has diverse preferences. A market stocked with 150+ SKUs serves them; a machine with 20 options doesn\'t',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -183,7 +183,7 @@ export default function BlogPostPage() {
               'Structural phase: steel erection and concrete crews, concentrated on the building shell',
               'MEP rough-in: the largest and most complex phase, with dozens of specialty subcontractors working simultaneously',
               'Equipment setting and process installation: specialized crews that may come from the equipment manufacturers themselves',
-              'Commissioning: smaller, more technical crews — the headcount drops significantly',
+              'Commissioning: smaller, more technical crews. The headcount drops significantly',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -193,8 +193,8 @@ export default function BlogPostPage() {
           </ul>
 
           <p>
-            A vendor who can scale market capacity up and down with headcount — adding equipment
-            at peak MEP phase, reducing it during commissioning — delivers the right level of
+            A vendor who can scale market capacity up and down with headcount (adding equipment
+            at peak MEP phase, reducing it during commissioning) delivers the right level of
             service at every phase without the GC having to manage the transition.
           </p>
 
@@ -225,8 +225,8 @@ export default function BlogPostPage() {
             Industrial plant construction is large-scale, multi-year work on remote or suburban
             sites with large crews, complex MEP scope, and no convenient food infrastructure
             nearby. Standard vending can&apos;t serve it. A properly deployed micro-market
-            network — multi-location, real-time monitored, scalable with headcount, and fully
-            managed without GC involvement — is what actually works across the full arc of a
+            network (multi-location, real-time monitored, scalable with headcount, and fully
+            managed without GC involvement) is what actually works across the full arc of a
             major industrial build.
           </p>
 
@@ -241,7 +241,7 @@ export default function BlogPostPage() {
           <p className="text-ember-500 font-mono text-xs tracking-[0.3em] uppercase mb-3">Get Started</p>
           <h3 className="font-display font-bold text-xl sm:text-2xl uppercase tracking-wide text-steel-50 mb-4">Request a Market Layout for Your Plant Build</h3>
           <p className="text-steel-300 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-            Tell us about your project — campus size, crew count, number of active work zones — and we&apos;ll design a zero-cost multi-location micro-market solution.
+            Tell us about your project (campus size, crew count, number of active work zones) and we&apos;ll design a multi-location micro-market solution.
           </p>
           <a href="/#contact" className="inline-flex items-center gap-2 rounded-lg bg-ember-500 px-8 py-4 text-sm font-semibold text-white uppercase tracking-wide hover:bg-ember-400 transition-colors duration-200">
             Request a Layout

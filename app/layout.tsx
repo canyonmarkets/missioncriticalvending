@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 
   // ── Core description ─────────────────────────────────────────────────
   description:
-    'Canyon Markets deploys premium micro-markets and smart vending for large-scale construction sites nationwide — data centers, hospitals, airports, semiconductor fabs, solar farms, stadiums, and industrial plants. Zero cost to the GC. Fully stocked, fully managed, 24/7.',
+    'Canyon Markets deploys premium micro-markets and smart vending for large-scale construction sites nationwide: data centers, hospitals, airports, semiconductor fabs, solar farms, stadiums, and industrial plants. Fully stocked, fully managed, 24/7.',
 
   // ── Keywords ────────────────────────────────────────────────────────
   keywords: [
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
         url: '/2.png',
         width: 1200,
         height: 630,
-        alt: 'Canyon Markets — Mission Critical Vending micro-market installation',
+        alt: 'Canyon Markets: Mission Critical Vending micro-market installation',
       },
     ],
   },
@@ -116,7 +116,7 @@ export const viewport: Viewport = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Canyon Markets — Mission Critical Vending',
+  name: 'Canyon Markets | Mission Critical Vending',
   alternateName: 'Mission Critical Vending',
   description:
     'Canyon Markets deploys premium micro-markets and smart vending solutions engineered for large-scale construction sites including data centers, industrial complexes, and major infrastructure builds.',

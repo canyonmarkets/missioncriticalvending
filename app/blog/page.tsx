@@ -4,7 +4,7 @@ import Reveal from '@/components/Reveal';
 
 export const metadata: Metadata = {
   title: 'Field Guides | Mission Critical Vending',
-  description: 'In-depth field guides on construction site vending and micro-market operations across every major large-scale construction vertical — from data centers to refineries to military builds.',
+  description: 'In-depth field guides on construction site vending and micro-market operations across every major large-scale construction vertical, from data centers to refineries to military builds.',
   alternates: { canonical: '/blog' },
 };
 
@@ -69,7 +69,7 @@ const POSTS = [
     slug: 'vending-for-refinery-construction',
     title: 'Vending for Refinery and Petrochemical Construction: Food Service in Controlled Industrial Environments',
     category: 'Refinery & Petrochemical',
-    excerpt: 'Turnarounds, process safety compliance, controlled-access environments — and crews that need food around the clock. The refinery vending challenge.',
+    excerpt: 'Turnarounds, process safety compliance, controlled-access environments, and crews that need food around the clock. The refinery vending challenge.',
     read: '7 min',
   },
   {

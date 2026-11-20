@@ -36,8 +36,8 @@ export default function BlogPostPage() {
         <div className="prose prose-invert prose-sm max-w-none text-steel-200 leading-relaxed space-y-6">
 
           <p>
-            The semiconductor fab projects being built across the United States right now — in
-            Arizona, Ohio, Texas, and New York — represent some of the largest and most complex
+            The semiconductor fab projects being built across the United States right now (in
+            Arizona, Ohio, Texas, and New York) represent some of the largest and most complex
             construction programs in the history of American manufacturing. Individual projects
             carry price tags in the tens of billions of dollars. The construction workforce at
             peak can exceed 10,000 workers across a single campus.
@@ -45,8 +45,8 @@ export default function BlogPostPage() {
 
           <p>
             At that scale, food service isn&apos;t a secondary concern. It&apos;s a workforce
-            management challenge. And standard vending machines — designed for an office break
-            room with 50 employees — are not the answer.
+            management challenge. And standard vending machines (designed for an office break
+            room with 50 employees) are not the answer.
           </p>
 
           <p>
@@ -59,7 +59,7 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            A modern semiconductor fabrication facility — or &quot;fab&quot; — is not a standard
+            A modern semiconductor fabrication facility (or &quot;fab&quot;) is not a standard
             industrial building. It&apos;s an extraordinarily complex structure housing cleanrooms
             with air filtration systems capable of maintaining sub-micron particulate levels,
             massive ultra-pure water systems, chemical distribution networks, vibration-controlled
@@ -75,8 +75,8 @@ export default function BlogPostPage() {
           <ul className="list-none space-y-3 pl-0">
             {[
               'Thousands of civil and structural workers during foundation and shell construction',
-              'Hundreds of specialty MEP crews — HVAC, plumbing, electrical, specialty piping',
-              'Cleanroom construction specialists — a highly specialized trade with its own subcontractor ecosystem',
+              'Hundreds of specialty MEP crews: HVAC, plumbing, electrical, specialty piping',
+              'Cleanroom construction specialists: a highly specialized trade with its own subcontractor ecosystem',
               'Ultra-pure water system installers, chemical distribution crews, vibration isolation specialists',
               'Simultaneously: multiple active buildings, multiple construction phases running in parallel',
             ].map((item) => (
@@ -88,7 +88,7 @@ export default function BlogPostPage() {
           </ul>
 
           <p>
-            Feeding this workforce requires not one micro-market but multiple — deployed
+            Feeding this workforce requires not one micro-market but multiple, deployed
             strategically across different buildings and work zones, monitored in real time,
             and restocked on a frequency that matches actual consumption rather than a
             preset weekly schedule.
@@ -101,7 +101,7 @@ export default function BlogPostPage() {
           <p>
             Semiconductor fab construction introduces a vendor compliance dimension that has
             no equivalent in standard commercial construction. Cleanroom-adjacent work areas
-            require strict contamination controls — specific PPE, controlled material handling,
+            require strict contamination controls: specific PPE, controlled material handling,
             and in some zones, restrictions on what workers can bring in and out of the area.
           </p>
 
@@ -115,7 +115,7 @@ export default function BlogPostPage() {
           <p>
             Beyond contamination control, large fab construction projects operated by companies
             like TSMC, Intel, Samsung, or Micron come with their own vendor qualification
-            processes — independent of the general contractor&apos;s requirements. Vendors
+            processes, independent of the general contractor&apos;s requirements. Vendors
             operating on these sites may be subject to:
           </p>
 
@@ -124,7 +124,7 @@ export default function BlogPostPage() {
               'Project-owner vendor prequalification and approval',
               'Background checks aligned with semiconductor industry security standards',
               'Specific liability coverage thresholds set by the project owner, not just the GC',
-              'Restrictions on photography and electronic devices in certain areas — relevant to AI camera systems',
+              'Restrictions on photography and electronic devices in certain areas, relevant to AI camera systems',
               'Supply chain documentation requirements for equipment brought on-site',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
@@ -148,8 +148,8 @@ export default function BlogPostPage() {
 
           <p>
             In that environment, anything that costs the workforce productive time is a real
-            problem. Workers leaving the site to find food during breaks — losing 30 to 45
-            minutes of the break period to travel — is a productivity drain that compounds
+            problem. Workers leaving the site to find food during breaks (losing 30 to 45
+            minutes of the break period to travel) is a productivity drain that compounds
             across a workforce of thousands. The math is straightforward: on a 5,000-worker
             project, if 20% of workers spend an extra 20 minutes per day dealing with inadequate
             food service, that&apos;s 1,000 person-hours per day lost to a solvable problem.
@@ -168,7 +168,7 @@ export default function BlogPostPage() {
 
           <p>
             The construction workforce on a large fab project spans a wide range of trades
-            and skill levels — from general laborers doing earthwork to highly specialized
+            and skill levels, from general laborers doing earthwork to highly specialized
             MEP technicians working in controlled environments. Their food needs are consistent
             with any heavy construction workforce: high protein, substantial calories,
             hydration, and quick access during compressed break windows.
@@ -180,11 +180,11 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'High-protein deli meals, sandwiches, and wraps — real food for workers doing real physical labor',
+              'High-protein deli meals, sandwiches, and wraps: real food for workers doing real physical labor',
               'Protein bars, beef jerky, hard-boiled eggs, and portable high-protein snacks',
               'Premium beverages: energy drinks, coffee, sports drinks, and electrolyte options',
-              'Hydration in volume — indoor construction environments with massive HVAC systems running overhead can be surprisingly dehydrating',
-              'Hot food options where the break room infrastructure permits — burritos, breakfast items, heat-and-eat meals',
+              'Hydration in volume: indoor construction environments with massive HVAC systems running overhead can be surprisingly dehydrating',
+              'Hot food options where the break room infrastructure permits: burritos, breakfast items, heat-and-eat meals',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -198,7 +198,7 @@ export default function BlogPostPage() {
           </h2>
 
           <p>
-            A large semiconductor fab campus is not a single building — it&apos;s often multiple
+            A large semiconductor fab campus is not a single building. It&apos;s often multiple
             fab buildings, support structures, utility facilities, and ancillary buildings
             built in overlapping phases over several years. The workforce concentration
             shifts constantly as different buildings move through different construction phases.
@@ -210,8 +210,8 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'Multiple market locations across the campus — positioned at the heaviest active work zones',
-              'Dynamic repositioning as construction phases advance — following the workforce, not anchored to a fixed location',
+              'Multiple market locations across the campus, positioned at the heaviest active work zones',
+              'Dynamic repositioning as construction phases advance, following the workforce, not anchored to a fixed location',
               'Inventory scaled to the actual workforce at each location, driven by real-time sales data',
               'Equipment that can be added or reduced as headcount fluctuates across the project arc',
             ].map((item) => (
@@ -249,8 +249,8 @@ export default function BlogPostPage() {
             Semiconductor fab construction is the most complex and highest-stakes building
             program in the industry right now. The workforce is massive, the timelines are
             aggressive, and the compliance environment is demanding. Standard vending operators
-            are not equipped for it. A micro-market deployment built for enterprise scale —
-            multi-location, real-time monitored, compliance-ready, and fully managed — is.
+            are not equipped for it. A micro-market deployment built for enterprise scale
+            (multi-location, real-time monitored, compliance-ready, and fully managed) is.
           </p>
 
           <p>
@@ -265,7 +265,7 @@ export default function BlogPostPage() {
           <p className="text-ember-500 font-mono text-xs tracking-[0.3em] uppercase mb-3">Get Started</p>
           <h3 className="font-display font-bold text-xl sm:text-2xl uppercase tracking-wide text-steel-50 mb-4">Request a Market Layout for Your Fab Project</h3>
           <p className="text-steel-300 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-            Tell us about your project — campus size, crew count, number of active buildings — and we&apos;ll design a zero-cost multi-location micro-market solution for your site.
+            Tell us about your project (campus size, crew count, number of active buildings) and we&apos;ll design a multi-location micro-market solution for your site.
           </p>
           <a href="/#contact" className="inline-flex items-center gap-2 rounded-lg bg-ember-500 px-8 py-4 text-sm font-semibold text-white uppercase tracking-wide hover:bg-ember-400 transition-colors duration-200">
             Request a Layout

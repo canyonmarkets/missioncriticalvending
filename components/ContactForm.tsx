@@ -20,10 +20,10 @@ const EMPTY: FormState = {
 };
 
 const PITCH_POINTS = [
-  'Zero cost, zero contracts, zero financial obligation',
+  'One monthly service agreement, sized to your site',
   'Custom layout designed for your site footprint and crew size',
   'Response within one business day',
-  'Nationwide deployment — no geographic boundaries',
+  'Nationwide deployment, no geographic boundaries',
 ];
 
 function Field({
@@ -106,7 +106,7 @@ export default function ContactForm() {
                 Request a Market Layout
               </h2>
               <p className="mt-5 text-steel-200 text-sm leading-relaxed">
-                Tell us about your project and we'll design a zero-cost micro-market and vending solution tailored to your site footprint and crew size.
+                Tell us about your project and we'll design a micro-market and vending solution tailored to your site footprint and crew size.
               </p>
             </div>
 

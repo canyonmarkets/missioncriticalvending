@@ -30,7 +30,7 @@ const INDUSTRIES = [
   {
     icon: Sun,
     name: 'Solar & Wind Farms',
-    sub: 'Remote renewable energy builds — often miles from the nearest food option in open desert or farmland.',
+    sub: 'Remote renewable energy builds, often miles from the nearest food option in open desert or farmland.',
     href: '/solar-farm-construction-vending',
   },
   {
@@ -80,7 +80,7 @@ export default function Industries() {
           </h2>
           <p className="text-steel-300 text-base leading-relaxed max-w-2xl mx-auto">
             If your project has 200+ workers on-site and no convenient food option nearby, we can solve it.
-            We operate across every major large-scale construction vertical — nationwide.
+            We operate across every major large-scale construction vertical, nationwide.
           </p>
         </Reveal>
 
@@ -110,7 +110,7 @@ export default function Industries() {
 
         {/* ── Bottom note ────────────────────────────────────────────────── */}
         <p className="text-center text-steel-500 text-xs font-mono tracking-wide mt-10 uppercase">
-          If your build qualifies, we&apos;ll deploy — regardless of location or project type
+          If your build qualifies, we&apos;ll deploy, regardless of location or project type
         </p>
 
       </div>

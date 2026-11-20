@@ -50,21 +50,21 @@ export default function BlogPostPage() {
             Drive out to most large-scale solar or wind farm construction projects and you&apos;ll
             find the same thing: a massive workforce operating in a location where the nearest
             restaurant is 20, 30, or 40 miles away. No food trucks. No corner stores. No drive-throughs.
-            Just open desert, flat farmland, or rolling plains — and 400 construction workers who
+            Just open desert, flat farmland, or rolling plains, and 400 construction workers who
             need to eat three times in a 10-hour shift.
           </p>
 
           <p>
             Renewable energy construction is one of the fastest-growing sectors in the industry.
             The builds are enormous in scale, the timelines are aggressive, and the workforce
-            logistics are brutal. Food service is almost always an afterthought — and that mistake
+            logistics are brutal. Food service is almost always an afterthought, and that mistake
             shows up in crew morale, productivity, and retention.
           </p>
 
           <p>
             <strong>Vending for solar farm construction sites</strong> requires a different approach
             than anything else in the vending industry. Here&apos;s what the problem actually looks
-            like — and what the real solution is.
+            like, and what the real solution is.
           </p>
 
           <h2 className="font-display font-bold text-xl sm:text-2xl uppercase tracking-wide text-steel-50 mt-10 mb-4">
@@ -81,13 +81,13 @@ export default function BlogPostPage() {
           <p>
             On a typical urban or suburban construction site, crews can leave during breaks and
             come back with food. On a remote renewable energy build, leaving the site to get food
-            isn&apos;t a 10-minute trip — it&apos;s an hour round-trip minimum. Workers who leave
+            isn&apos;t a 10-minute trip. It&apos;s an hour round-trip minimum. Workers who leave
             for lunch don&apos;t come back on time. Some don&apos;t come back at all that day.
             The productivity math is brutal.
           </p>
 
           <p>
-            The default solution most GCs try — bringing in food trucks — has its own problems.
+            The default solution most GCs try (bringing in food trucks) has its own problems.
             Food trucks have to drive 30 to 40 miles to reach the site. They serve a long line
             of workers in a short break window and can&apos;t maintain consistent quality or
             inventory across a long project. And in desert environments, food safety is a real
@@ -111,10 +111,10 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'Workers in different zones may be a mile or more apart — a single central food truck serves nobody well',
-              'Shift patterns vary across trades — civil crews starting at dawn, electrical crews running late into the afternoon',
-              'The workforce composition changes as the project phases progress — civil and grading crews give way to panel installation crews give way to electrical and commissioning teams',
-              'In summer desert conditions, hydration is not optional — it\'s a safety requirement, and running out of water on a remote site is a genuine emergency',
+              'Workers in different zones may be a mile or more apart. A single central food truck serves nobody well',
+              'Shift patterns vary across trades: civil crews starting at dawn, electrical crews running late into the afternoon',
+              'The workforce composition changes as the project phases progress: civil and grading crews give way to panel installation crews give way to electrical and commissioning teams',
+              'In summer desert conditions, hydration is not optional. It\'s a safety requirement, and running out of water on a remote site is a genuine emergency',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -131,8 +131,8 @@ export default function BlogPostPage() {
             Outdoor construction in extreme heat is physiologically demanding in ways that indoor
             construction is not. Solar farm crews in Arizona, Nevada, or West Texas during summer
             months are working in ambient temperatures of 100°F to 115°F. Their hydration and
-            caloric needs are dramatically higher than office workers — or even indoor construction
-            crews.
+            caloric needs are dramatically higher than office workers (or even indoor construction
+            crews).
           </p>
 
           <p>
@@ -141,11 +141,11 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'Electrolyte drinks in volume — Liquid IV, Gatorade, Pedialyte, coconut water — these are safety items, not beverages',
-              'Premium water by the case — a crew of 400 workers in triple-digit heat goes through water at a rate most vending operators have never planned for',
-              'High-calorie, high-protein foods that don\'t require refrigeration or heating — jerky, protein bars, trail mix, nut butters',
-              'Ready-to-eat cold foods — sandwiches, wraps, hard-boiled eggs — from refrigerated coolers',
-              'Electrolyte supplements and salt packets — heat cramps are a real risk, and smart crews use them proactively',
+              'Electrolyte drinks in volume (Liquid IV, Gatorade, Pedialyte, coconut water). These are safety items, not beverages',
+              'Premium water by the case: a crew of 400 workers in triple-digit heat goes through water at a rate most vending operators have never planned for',
+              'High-calorie, high-protein foods that don\'t require refrigeration or heating: jerky, protein bars, trail mix, nut butters',
+              'Ready-to-eat cold foods: sandwiches, wraps, hard-boiled eggs, from refrigerated coolers',
+              'Electrolyte supplements and salt packets. Heat cramps are a real risk, and smart crews use them proactively',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />
@@ -155,7 +155,7 @@ export default function BlogPostPage() {
           </ul>
 
           <p>
-            Standard vending machine inventory — chips, candy, soda — is actively counterproductive
+            Standard vending machine inventory (chips, candy, soda) is actively counterproductive
             for crews working in heat. High-sugar drinks accelerate dehydration. Low-protein snacks
             don&apos;t sustain energy across long outdoor shifts. The inventory has to be purpose-built
             for the environment.
@@ -167,7 +167,7 @@ export default function BlogPostPage() {
 
           <p>
             The solution that works at scale on remote renewable energy builds is a modular
-            micro-market setup — installed inside the site&apos;s construction tent, trailer complex,
+            micro-market setup, installed inside the site&apos;s construction tent, trailer complex,
             or temporary break structure. Not a vending machine. Not a food truck. A fully stocked
             open-format market that workers can walk into, grab what they need, and check out in
             under a minute.
@@ -179,10 +179,10 @@ export default function BlogPostPage() {
 
           <ul className="list-none space-y-3 pl-0">
             {[
-              'Initial setup: equipment delivered and installed inside the existing break structure — no permanent construction required',
-              'Restocking: driven by real-time inventory data, not a weekly schedule — on a large remote site, running out of water is not an option',
+              'Initial setup: equipment delivered and installed inside the existing break structure: no permanent construction required',
+              'Restocking: driven by real-time inventory data, not a weekly schedule. On a large remote site, running out of water is not an option',
               'Self-checkout technology: Mashgin 3D vision kiosks handle checkout in under two seconds, no cashier needed, no one on-site required from our team',
-              'Loss prevention: Panoptyc AI cameras monitor 24/7 — autonomous security without requiring on-site staff',
+              'Loss prevention: Panoptyc AI cameras monitor 24/7: autonomous security without requiring on-site staff',
               'Reposition capability: as work zones shift across the project footprint, equipment can be relocated to follow the workforce',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
@@ -205,24 +205,24 @@ export default function BlogPostPage() {
 
           <p>
             A utility-scale solar project moves through distinct phases, and the workforce
-            composition changes dramatically at each one. Civil and grading crews are first —
+            composition changes dramatically at each one. Civil and grading crews are first:
             large teams doing earthwork and access road construction. Then structural crews
             installing racking systems. Then panel installation crews, which are often the
             largest and most physically demanding phase. Then electrical and inverter installation.
-            Finally, commissioning and testing crews — smaller, more specialized.
+            Finally, commissioning and testing crews, smaller, more specialized.
           </p>
 
           <p>
             Peak workforce can run 600 to 800 workers during panel installation. By commissioning,
             you might be down to 50 specialized technicians. A smart vending operator scales
-            equipment up and down with the headcount — adding capacity at peak, reducing it
+            equipment up and down with the headcount: adding capacity at peak, reducing it
             as the project winds down.
           </p>
 
           <p>
             On projects that span multiple years (large utility-scale builds often do), the
             vendor relationship needs to be flexible enough to accommodate that full arc without
-            the GC having to manage it. Real-time inventory data makes this possible — the vendor
+            the GC having to manage it. Real-time inventory data makes this possible: the vendor
             sees when demand drops off and scales accordingly, without waiting to be told.
           </p>
 
@@ -253,15 +253,15 @@ export default function BlogPostPage() {
             Remote construction is hard enough without adding a food service problem to it.
             Solar and wind farm builds are massive in scale, aggressive in timeline, and located
             specifically in places without food infrastructure. Standard vending machines don&apos;t
-            work. Food trucks can&apos;t sustain it. A properly deployed micro-market — purpose-stocked
+            work. Food trucks can&apos;t sustain it. A properly deployed micro-market (purpose-stocked
             for outdoor labor in harsh conditions, monitored in real time, and managed without any
-            burden on the GC — is the solution that actually holds up across the life of a large
+            burden on the GC) is the solution that actually holds up across the life of a large
             renewable energy project.
           </p>
 
           <p>
             If you&apos;re managing a utility-scale solar or wind project and you&apos;re trying to
-            figure out how to feed your crew in the middle of nowhere — we&apos;ve solved this problem
+            figure out how to feed your crew in the middle of nowhere, we&apos;ve solved this problem
             before. Let&apos;s talk.
           </p>
 
@@ -274,8 +274,8 @@ export default function BlogPostPage() {
             Request a Market Layout for Your Remote Construction Site
           </h3>
           <p className="text-steel-300 text-sm leading-relaxed mb-6 max-w-lg mx-auto">
-            Tell us about your project — crew size, site location, construction phase — and we&apos;ll
-            design a zero-cost micro-market solution that works in your specific environment.
+            Tell us about your project (crew size, site location, construction phase) and we&apos;ll
+            design a micro-market solution that works in your specific environment.
           </p>
           <a
             href="/#contact"
