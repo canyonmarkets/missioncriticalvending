@@ -34,7 +34,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-xs leading-relaxed text-steel-300 max-w-xs">
-              Premium micro-markets and smart vending solutions deployed nationwide across large-scale construction sites and enterprise workforce environments.
+              Premium micro-markets and smart vending solutions for large-scale construction sites and enterprise workforce environments.
             </p>
           </div>
 

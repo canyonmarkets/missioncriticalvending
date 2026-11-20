@@ -8,7 +8,7 @@ const STATS = [
   { value: '~3 sec', label: 'Self-checkout' },
   { value: '24/7', label: 'Every shift covered' },
   { value: '250+', label: 'Products stocked' },
-  { value: 'Nationwide', label: 'Deployment reach' },
+  { value: 'In-house', label: 'Software we built' },
 ] as const;
 
 export default function CapabilityStrip() {

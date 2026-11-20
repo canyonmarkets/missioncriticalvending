@@ -187,9 +187,8 @@ export default function BlogPostPage() {
           </p>
 
           <p>
-            The technology makes this possible. Mashgin self-checkout kiosks use 3D computer vision
-            to scan multiple items at once: no barcodes, no manual entry. Checkout takes under two
-            seconds. For a crew of 400 workers with a 30-minute break window, that speed matters
+            The technology makes this possible. Self-checkout kiosks let workers scan their items
+            and tap to pay in a few seconds, with no cashier and no cash. For a crew of 400 workers with a 30-minute break window, that speed matters
             enormously. A machine that processes one transaction every 15 seconds can serve 120
             workers in the break period. A traditional vending machine serving the same crew
             would have people queuing and leaving before they get served.

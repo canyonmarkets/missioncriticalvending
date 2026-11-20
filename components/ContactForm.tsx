@@ -23,7 +23,7 @@ const PITCH_POINTS = [
   'One monthly service agreement, sized to your site',
   'Custom layout designed for your site footprint and crew size',
   'Response within one business day',
-  'Nationwide deployment, no geographic boundaries',
+  'Open to qualifying projects outside our home markets',
 ];
 
 function Field({

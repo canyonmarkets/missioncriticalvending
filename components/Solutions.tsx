@@ -60,13 +60,13 @@ const SECTIONS: Section[] = [
     features: [
       {
         icon: Scan,
-        label: 'Mashgin 3D Vision Checkout',
-        detail: 'Speed is critical on a massive job site. Our micro-markets feature Mashgin self-checkout kiosks with advanced 3D computer vision, scanning multiple items simultaneously, no barcodes required, checkouts completed in under two seconds. Workers refuel and return to the line instantly.',
+        label: 'Self-Checkout Kiosks',
+        detail: 'Speed is critical on a massive job site. Our micro-markets use self-checkout kiosks running our own software: workers scan their items, tap a card or phone, and are done in seconds. No cashier, no cash, and they get back to the line fast.',
       },
       {
         icon: Camera,
-        label: 'Panoptyc Smart Security System',
-        detail: 'Large-scale job sites demand strict oversight. We protect our inventory and your facility with Panoptyc AI-powered smart cameras: 24/7 autonomous monitoring, intelligent loss-detection analytics, and proactive security alerts. Complete operational integrity with zero burden on site management.',
+        label: 'Smart Security Cameras',
+        detail: 'Large-scale job sites demand strict oversight. We protect our inventory and your facility with AI-powered smart cameras: 24/7 monitoring, intelligent loss-detection analytics, and proactive security alerts. Complete operational integrity with zero burden on site management.',
       },
     ],
     imageAlt: 'Canyon Markets micro-market setup inside a data center construction tent',

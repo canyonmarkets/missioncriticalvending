@@ -181,8 +181,8 @@ export default function BlogPostPage() {
             {[
               'Initial setup: equipment delivered and installed inside the existing break structure: no permanent construction required',
               'Restocking: driven by real-time inventory data, not a weekly schedule. On a large remote site, running out of water is not an option',
-              'Self-checkout technology: Mashgin 3D vision kiosks handle checkout in under two seconds, no cashier needed, no one on-site required from our team',
-              'Loss prevention: Panoptyc AI cameras monitor 24/7: autonomous security without requiring on-site staff',
+              'Self-checkout technology: kiosks handle checkout in seconds, no cashier needed, no one on-site required from our team',
+              'Loss prevention: smart security cameras monitor 24/7: autonomous security without requiring on-site staff',
               'Reposition capability: as work zones shift across the project footprint, equipment can be relocated to follow the workforce',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">

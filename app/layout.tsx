@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 
   // ── Core description ─────────────────────────────────────────────────
   description:
-    'Canyon Markets deploys premium micro-markets and smart vending for large-scale construction sites nationwide: data centers, hospitals, airports, semiconductor fabs, solar farms, stadiums, and industrial plants. Fully stocked, fully managed, 24/7.',
+    'Canyon Markets deploys premium micro-markets and smart vending for large-scale construction sites: data centers, hospitals, airports, semiconductor fabs, solar farms, stadiums, and industrial plants. Fully stocked, fully managed, 24/7.',
 
   // ── Keywords ────────────────────────────────────────────────────────
   keywords: [

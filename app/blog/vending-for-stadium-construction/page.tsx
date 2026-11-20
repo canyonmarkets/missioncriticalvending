@@ -127,7 +127,7 @@ export default function BlogPostPage() {
 
           <p>
             Modular equipment (additional shelving units, a second cooler, a second
-            Mashgin kiosk) can be added as headcount grows. Real-time inventory data
+            self-checkout kiosk) can be added as headcount grows. Real-time inventory data
             drives the restocking cadence up automatically. The market scales with the
             project without requiring the GC to manage the transition.
           </p>

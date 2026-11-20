@@ -146,7 +146,7 @@ export default function BlogPostPage() {
               'No cash on many installations: workers on base often don\'t carry cash. Cashless payment is not optional, it\'s required for any practical utilization of the market.',
               'Early start times: many military construction projects begin at 6am or earlier. The market has to be fully stocked before the crew arrives, not after.',
               'Controlled access for restocking: every restocking visit has to be pre-coordinated with installation security. A vendor who shows up unannounced doesn\'t get through the gate.',
-              'Security camera considerations: Panoptyc AI monitoring systems must be disclosed and approved by the installation security officer before deployment.',
+              'Security camera considerations: AI camera monitoring systems must be disclosed and approved by the installation security officer before deployment.',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />

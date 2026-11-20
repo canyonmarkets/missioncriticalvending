@@ -107,10 +107,10 @@ export default function BlogPostPage() {
             {[
               'Open shelving units stocked with 200+ SKUs: snacks, meal replacements, energy drinks, water, protein bars, and ready-to-eat meals',
               'Refrigerated cooler units for cold beverages, fresh sandwiches, deli items, and high-protein options',
-              'Mashgin self-checkout kiosks: 3D computer vision scans multiple items simultaneously, no barcode scanning required, checkout under two seconds',
+              'Self-checkout kiosks: workers scan their items and tap to pay in seconds, no cashier needed',
               'Cashless payment: tap, swipe, or scan to pay, no cash needed on a job site',
               'Real-time inventory monitoring so the market gets restocked before it runs empty, not after',
-              'Panoptyc AI smart cameras for 24/7 loss prevention without requiring on-site security',
+              'Smart security cameras for 24/7 loss prevention without requiring on-site security',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-ember-500" />

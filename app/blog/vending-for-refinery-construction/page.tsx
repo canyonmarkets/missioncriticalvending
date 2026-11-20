@@ -170,7 +170,7 @@ export default function BlogPostPage() {
 
           <p>
             Modular equipment is critical for turnaround deployments: shelving units, smart
-            coolers, and Mashgin kiosks that can be loaded onto a delivery truck, moved through
+            coolers, and self-checkout kiosks that can be loaded onto a delivery truck, moved through
             a security checkpoint, and set up inside a break room trailer in a few hours.
             No permanent installation. No utility modifications beyond a standard power connection.
             The market is operational the same day equipment arrives.

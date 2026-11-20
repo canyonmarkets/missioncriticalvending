@@ -178,7 +178,7 @@ export default function BlogPostPage() {
 
           <p>
             A smart vending setup on a highway project repositions to follow that movement.
-            Modular equipment (compact shelving, portable coolers, and Mashgin kiosk units)
+            Modular equipment (compact shelving, portable coolers, and self-checkout kiosks)
             can be relocated to new staging areas as the project advances, keeping the market
             within a short walk of wherever the majority of the crew is working at any given phase.
           </p>

@@ -73,14 +73,14 @@ export default function Industries() {
         {/* ── Section header ─────────────────────────────────────────────── */}
         <Reveal className="text-center mb-16">
           <p className="text-ember-500 font-mono text-base tracking-[0.3em] uppercase mb-4">
-            Nationwide Coverage
+            Where We Fit
           </p>
           <h2 className="font-display font-bold text-3xl sm:text-4xl uppercase tracking-wide text-steel-50 mb-5">
             Industries We Serve
           </h2>
           <p className="text-steel-300 text-base leading-relaxed max-w-2xl mx-auto">
             If your project has 200+ workers on-site and no convenient food option nearby, we can solve it.
-            We operate across every major large-scale construction vertical, nationwide.
+            We build markets for every major large-scale construction vertical.
           </p>
         </Reveal>
 

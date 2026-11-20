@@ -162,7 +162,7 @@ export default function BlogPostPage() {
           <ul className="list-none space-y-3 pl-0">
             {[
               'Night shift nutrition: terminal expansions and airside projects often run overnight when flight traffic is lowest. Night crews need the same quality food options as day crews.',
-              'Fast checkout: airport construction workers often have compressed break windows. A self-checkout kiosk that processes a transaction in under two seconds is not a luxury, it\'s a requirement.',
+              'Fast checkout: airport construction workers often have compressed break windows. A self-checkout kiosk that gets a worker through in seconds is not a luxury, it\'s a requirement.',
               'Hydration: indoor terminal environments with active HVAC systems under construction can be hot, dusty, and physically taxing. Electrolyte options matter.',
               'Convenience: workers cannot leave the secured area to get food. The market has to function as their only option, which means inventory has to be comprehensive.',
             ].map((item) => (
@@ -195,7 +195,7 @@ export default function BlogPostPage() {
 
           <p>
             The modular equipment setup also helps: compact shelving, smart coolers, and
-            Mashgin checkout kiosks that fit within the space constraints of a construction
+            self-checkout kiosks that fit within the space constraints of a construction
             tent or temporary break room without requiring permanent installation or utility
             modifications beyond a standard power connection.
           </p>
